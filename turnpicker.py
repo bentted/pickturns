@@ -503,6 +503,69 @@ translations = {
 
 current_language = "en" 
 
+import tkinter as tk
+from tkinter import ttk
+
+# ---------- Styling Constants ----------
+BG_COLOR = "#f0f8ff"
+PRIMARY_COLOR = "#007acc"
+TEXT_COLOR = "#333333"
+FONT_TITLE = ("Helvetica", 16, "bold")
+FONT_INPUT = ("Helvetica", 12)
+FONT_DISPLAY = ("Helvetica", 14, "italic")
+
+# ---------- Functions ----------
+def update_display():
+    name = name_entry.get().strip()
+    if name:
+        display_var.set(f"Selected Name: {name}")
+        name_entry.delete(0, tk.END)
+
+# ---------- Main Window ----------
+root = tk.Tk()
+root.title("Name Selector")
+root.geometry("400x250")
+root.configure(bg=BG_COLOR)
+
+# ---------- Style Configuration ----------
+style = ttk.Style()
+style.theme_use("default")
+
+style.configure('TLabel',
+                background=BG_COLOR,
+                foreground=TEXT_COLOR,
+                font=FONT_INPUT)
+
+style.configure('TEntry',
+                font=FONT_INPUT)
+
+style.configure('TButton',
+                font=FONT_INPUT,
+                foreground='white',
+                background=PRIMARY_COLOR,
+                padding=6)
+
+style.map('TButton',
+          background=[('active', '#005f99')])
+
+# ---------- Widgets ----------
+title_label = ttk.Label(root, text="Enter a Name", font=FONT_TITLE)
+title_label.pack(pady=(20, 10))
+
+name_entry = ttk.Entry(root, width=30)
+name_entry.pack(pady=5)
+
+select_button = ttk.Button(root, text="Select Name", command=update_display)
+select_button.pack(pady=10)
+
+display_var = tk.StringVar()
+display_label = ttk.Label(root, textvariable=display_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR)
+display_label.pack(pady=(20, 10))
+
+# ---------- Run the App ----------
+root.mainloop()
+
+
 def get_message(key, **kwargs):
     """Retrieves a translated message string for the current language."""
     global current_language
@@ -566,5 +629,7 @@ def winner(name_of_the_winner):
         print(get_message("names_remaining", count=len(names)))
 
 if __name__ == "__main__":
+    root.mainloop()
+
     set_language() # Call set_language at the beginning
     main(names)
