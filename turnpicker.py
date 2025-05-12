@@ -468,6 +468,36 @@ translations = {
         "names_remaining": "נותרו {count} שמות במאגר הבחירה.",
         "quit_command": "יציאה",
         "next_command": "הבא"
+    },
+    "zh-CN": { # Simplified Chinese translations
+        "select_language_prompt": "选择语言 (例如: en, es): ",
+        "language_not_supported": "不支持语言 '{lang}'。正在使用英语。",
+        "enter_name_prompt": "输入您的名字 (或输入 '{quit_cmd}' 退出, '{next_cmd}' 选择名字): ",
+        "exiting_program": "正在退出程序。",
+        "no_names_to_select": "没有可供选择的名字。请先添加一些名字。",
+        "name_added_to_list": "已将 '{name}' 添加到列表中。",
+        "congratulations_winner": "恭喜 {name}! 您是赢家!",
+        "error_no_winner_provided": "错误：没有为赢家功能提供赢家。",
+        "added_to_winners_list": "'{name}' 已添加到赢家列表中。",
+        "game_over_all_selected": "游戏结束！所有名字都已被选中。赢家是: {winners_list}",
+        "names_remaining": "选择池中还剩 {count} 个名字。",
+        "quit_command": "退出",
+        "next_command": "下一个"
+    },
+    "zh-TW": { # Traditional Chinese translations
+        "select_language_prompt": "選擇語言 (例如: en, es): ",
+        "language_not_supported": "不支持語言 '{lang}'。正在使用英語。",
+        "enter_name_prompt": "輸入您的名字 (或輸入 '{quit_cmd}' 退出, '{next_cmd}' 選擇名字): ",
+        "exiting_program": "正在退出程式。",
+        "no_names_to_select": "沒有可供選擇的名字。請先添加一些名字。",
+        "name_added_to_list": "已將 '{name}' 添加到列表中。",
+        "congratulations_winner": "恭喜 {name}! 您是贏家!",
+        "error_no_winner_provided": "錯誤：沒有為贏家功能提供贏家。",
+        "added_to_winners_list": "'{name}' 已添加到贏家列表中。",
+        "game_over_all_selected": "遊戲結束！所有名字都已被選中。贏家是: {winners_list}",
+        "names_remaining": "選擇池中還剩 {count} 個名字。",
+        "quit_command": "退出",
+        "next_command": "下一個"
     }
 }
 

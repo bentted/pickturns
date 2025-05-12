@@ -77,3 +77,7 @@ The script currently supports the following language codes for translations:
 *   `tr` (Turkish)
 *   `fa` (Persian)
 *   `he` (Hebrew)
+*   `zh-CN` (Simplified Chinese)
+*   `zh-TW` (Traditional Chinese)
+
+#contributors
