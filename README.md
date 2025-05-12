@@ -81,3 +81,5 @@ The script currently supports the following language codes for translations:
 *   `zh-TW` (Traditional Chinese)
 
 #contributors
+ @yantr-manav
+ 
