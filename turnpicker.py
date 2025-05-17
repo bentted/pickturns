@@ -47,7 +47,11 @@ translations = {
         "d20_description": "D20 (twenty-sided die) – The most important die, used for attack rolls, skill checks, saving throws, and determining success or failure.",
         "d100_description": "D100 (percentile die) – Used for rolling percentages, often in conjunction with a D10 to determine random effects or loot.",
         "no_more_names_to_select": "No more names to select.",
-        "close_button_text": "Close"
+        "close_button_text": "Close",
+        "card_game_screen_title": "Card Game Helper",
+        "go_to_card_game_screen": "Go to Card Games",
+        "select_card_game_label": "Select Card Game:",
+        "card_game_rules_title": "Game Rules:"
     },
     "es": { #  Spanish translations
         "select_language_prompt": "Selecciona el idioma (ej. en, es): ",
@@ -91,7 +95,11 @@ translations = {
         "d20_description": "D20 (dado de veinte caras) – El dado más importante, usado para tiradas de ataque, pruebas de habilidad, tiros de salvación y para determinar el éxito o fracaso.",
         "d100_description": "D100 (dado percentil) – Usado para tirar porcentajes, a menudo junto con un D10 para determinar efectos aleatorios o botín.",
         "no_more_names_to_select": "No quedan más nombres para seleccionar.",
-        "close_button_text": "Cerrar"
+        "close_button_text": "Cerrar",
+        "card_game_screen_title": "Ayudante de Juegos de Cartas",
+        "go_to_card_game_screen": "Ir a Juegos de Cartas",
+        "select_card_game_label": "Selecciona Juego de Cartas:",
+        "card_game_rules_title": "Reglas del Juego:"
     },
     "ger": { # German translations
         "select_language_prompt": "Sprache auswählen (z.B. en, es, ger): ",
@@ -127,7 +135,7 @@ translations = {
         "dnd_roll_result": "Du hast einen {die} gewürfelt: {result}",
         "dnd_help_button": "Hilfe",
         "dnd_help_title": "Würfelinformationen",
-        "d4_description": "W4 (vierseitiger Würfel) – Wird für kleine Schadenswürfe verwendet, z. B. für Dolche oder magische Geschosse.",
+        "d4_description": "W4 (vierseitiger Würfel) – Wird für kleine Schadenswürfe verwendet, z. B. Dolche oder magische Geschosse.",
         "d6_description": "W6 (sechsseitiger Würfel) – Üblich für Waffenschaden, wie Kurzschwerter, und wird auch bei der Charaktererstellung verwendet.",
         "d8_description": "W8 (achtseitiger Würfel) – Oft für Waffen mit mittlerem Schaden verwendet, wie Streitkolben und bestimmte Zauber.",
         "d10_description": "W10 (zehnseitiger Würfel) – Wird für größere Schadenswürfe verwendet, z. B. für bestimmte Kriegswaffen und Zaubereffekte.",
@@ -135,7 +143,11 @@ translations = {
         "d20_description": "W20 (zwanzigseitiger Würfel) – Der wichtigste Würfel, wird für Angriffswürfe, Fertigkeitsproben, Rettungswürfe und zur Bestimmung von Erfolg oder Misserfolg verwendet.",
         "d100_description": "W100 (Prozentwürfel) – Wird zum Würfeln von Prozentsätzen verwendet, oft in Verbindung mit einem W10, um zufällige Effekte oder Beute zu bestimmen.",
         "no_more_names_to_select": "Keine Namen mehr zur Auswahl.",
-        "close_button_text": "Schließen"
+        "close_button_text": "Schließen",
+        "card_game_screen_title": "Kartenspiel-Helfer",
+        "go_to_card_game_screen": "Zu den Kartenspielen",
+        "select_card_game_label": "Kartenspiel auswählen:",
+        "card_game_rules_title": "Spielregeln:"
     },
     # --- European Languages ---
     "fr": { # French translations
@@ -179,7 +191,11 @@ translations = {
         "d20_description": "D20 (dé à vingt faces) – Le dé le plus important, utilisé pour les jets d'attaque, les tests de compétence, les jets de sauvegarde et pour déterminer le succès ou l'échec.",
         "d100_description": "D100 (dé de pourcentage) – Utilisé pour lancer des pourcentages, souvent en conjonction avec un D10 pour déterminer des effets aléatoires ou du butin.",
         "no_more_names_to_select": "Plus de noms à sélectionner.",
-        "close_button_text": "Fermer"
+        "close_button_text": "Fermer",
+        "card_game_screen_title": "Assistant Jeux de Cartes",
+        "go_to_card_game_screen": "Aller aux Jeux de Cartes",
+        "select_card_game_label": "Sélectionnez un jeu de cartes:",
+        "card_game_rules_title": "Règles du jeu:"
     },
     "it": { # Italian translations
         "select_language_prompt": "Seleziona la lingua (es. en, it): ",
@@ -222,7 +238,11 @@ translations = {
         "d20_description": "D20 (dado a venti facce) – Il dado più importante, usato per tiri di attacco, prove di abilità, tiri salvezza e per determinare successo o fallimento.",
         "d100_description": "D100 (dado percentuale) – Usato per tirare percentuali, spesso in combinazione con un D10 per determinare effetti casuali o bottino.",
         "no_more_names_to_select": "Non ci sono più nomi da selezionare.",
-        "close_button_text": "Chiudi"
+        "close_button_text": "Chiudi",
+        "card_game_screen_title": "Assistente Giochi di Carte",
+        "go_to_card_game_screen": "Vai ai Giochi di Carte",
+        "select_card_game_label": "Seleziona Gioco di Carta:",
+        "card_game_rules_title": "Regole del Gioco:"
     },
     "pt": { # Portuguese translations
         "select_language_prompt": "Selecione o idioma (ex: en, pt): ",
@@ -263,9 +283,13 @@ translations = {
         "d10_description": "D10 (dado de dez faces) – Usado para rolagens de dano maiores, como certas armas marciais e efeitos de feitiços.",
         "d12_description": "D12 (dado de doze faces) – Normalmente usado para dano de armas pesadas, como o machado grande de um bárbaro.",
         "d20_description": "D20 (dado de vinte faces) – O dado mais importante, usado para rolagens de ataque, testes de habilidade, salvaguardas e para determinar sucesso ou fracasso.",
-        "d100_description": "D100 (dado percentual) – Usado para rolar porcentagens, frequentemente em conjunto com um D10 para determinar efeitos aleatórios ou saque.",
+        "d100_description": "D100 (dado percentual) – Usado para tirar porcentagens, frequentemente em conjunto com um D10 para determinar efeitos aleatórios ou saque.",
         "no_more_names_to_select": "Não há mais nomes para selecionar.",
-        "close_button_text": "Fechar"
+        "close_button_text": "Fechar",
+        "card_game_screen_title": "Ajudante de Jogos de Cartas",
+        "go_to_card_game_screen": "Ir para Jogos de Cartas",
+        "select_card_game_label": "Selecione o Jogo de Cartas:",
+        "card_game_rules_title": "Regras do Jogo:"
     },
     "nl": { # Dutch translations
         "select_language_prompt": "Selecteer taal (bijv. en, nl): ",
@@ -308,7 +332,11 @@ translations = {
         "d20_description": "D20 (twintigzijdige dobbelsteen) – De belangrijkste dobbelsteen, gebruikt voor aanvalsworpen, vaardigheidstests, reddingsworpen en om succes of falen te bepalen.",
         "d100_description": "D100 (procentuele dobbelsteen) – Gebruikt voor het rollen van percentages, vaak in combinatie met een D10 om willekeurige effecten of buit te bepalen.",
         "no_more_names_to_select": "Geen namen meer om te selecteren.",
-        "close_button_text": "Sluiten"
+        "close_button_text": "Sluiten",
+        "card_game_screen_title": "Kaartspel Helper",
+        "go_to_card_game_screen": "Naar Kaartspellen",
+        "select_card_game_label": "Selecteer Kaartspel:",
+        "card_game_rules_title": "Spelregels:"
     },
     "pl": { # Polish translations
         "select_language_prompt": "Wybierz język (np. en, pl): ",
@@ -351,7 +379,11 @@ translations = {
         "d20_description": "K20 (kość dwudziestościenna) – Najważniejsza kość, używana do rzutów ataku, testów umiejętności, rzutów obronnych oraz do określania sukcesu lub porażki.",
         "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów.",
         "no_more_names_to_select": "Nie ma więcej nazw do wyboru.",
-        "close_button_text": "Zamknij"
+        "close_button_text": "Zamknij",
+        "card_game_screen_title": "Pomocnik Gier Karcianych",
+        "go_to_card_game_screen": "Przejdź do Gier Karcianych",
+        "select_card_game_label": "Wybierz Grę Karcianą:",
+        "card_game_rules_title": "Zasady Gry:"
     },
     "sv": { # Swedish translations
         "select_language_prompt": "Välj språk (t.ex. en, sv): ",
@@ -394,7 +426,11 @@ translations = {
         "d20_description": "T20 (tjugosidig tärning) – Den viktigaste tärningen, används för attackslag, färdighetsslag, räddningsslag och för att avgöra framgång eller misslyckande.",
         "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte.",
         "no_more_names_to_select": "Inga fler namn att välja.",
-        "close_button_text": "Stäng"
+        "close_button_text": "Stäng",
+        "card_game_screen_title": "Kortspelshjälpare",
+        "go_to_card_game_screen": "Gå till Kortspel",
+        "select_card_game_label": "Välj Kortspel:",
+        "card_game_rules_title": "Spelregler:"
     },
     "el": { # Greek translations
         "select_language_prompt": "Επιλέξτε γλώσσα (π.χ. en, el): ",
@@ -437,7 +473,11 @@ translations = {
         "d20_description": "D20 (εικοσάεδρο ζάρι) – Το πιο σημαντικό ζάρι, χρησιμοποιείται για επιθέσεις, ελέγχους δεξιοτήτων, ρίψεις σωτηρίας και για τον καθορισμό επιτυχίας ή αποτυχίας.",
         "d100_description": "D100 (εκατοστιαίο ζάρι) – Χρησιμοποιείται για ρίψη ποσοστών, συχνά σε συνδυασμό με ένα D10 για τον καθορισμό τυχαίων εφέ ή λαφύρων.",
         "no_more_names_to_select": "Δεν υπάρχουν άλλα ονόματα για επιλογή.",
-        "close_button_text": "Κλείσιμο"
+        "close_button_text": "Κλείσιμο",
+        "card_game_screen_title": "Βοηθός Παιχνιδιών με Χαρτιά",
+        "go_to_card_game_screen": "Μετάβαση στα Παιχνίδια με Χαρτιά",
+        "select_card_game_label": "Επιλογή Παιχνιδιού με Χαρτιά:",
+        "card_game_rules_title": "Κανόνες Παιχνιδιού:"
     },
     "ru": { # Russian translations
         "select_language_prompt": "Выберите язык (например, en, ru): ",
@@ -480,7 +520,11 @@ translations = {
         "d20_description": "D20 (двадцатигранный кубик) – Самый важный кубик, используется для бросков атаки, проверок навыков, спасбросков и определения успеха или неудачи.",
         "d100_description": "D100 (процентный кубик) – Используется для броска процентов, часто вместе с D10 для определения случайных эффектов или добычи.",
         "no_more_names_to_select": "Больше нет имен для выбора.",
-        "close_button_text": "Закрыть"
+        "close_button_text": "Закрыть",
+        "card_game_screen_title": "Помощник по карточным играм",
+        "go_to_card_game_screen": "К карточным играм",
+        "select_card_game_label": "Выберите карточную игру:",
+        "card_game_rules_title": "Правила игры:"
     },
     # --- Asian Languages ---
     "ja": { # Japanese translations
@@ -521,10 +565,14 @@ translations = {
         "d8_description": "D8 (8面ダイス) – メイスや特定の呪文など、中程度のダメージの武器によく使用されます。",
         "d10_description": "D10 (10面ダイス) – 特定の武具や呪文効果など、より大きなダメージロールに使用されます。",
         "d12_description": "D12 (12面ダイス) – バーバリアンのグレートアックスなど、重武器のダメージに通常使用されます。",
-        "d20_description": "D20 (20面ダイス) – 最も重要なダイスで、攻撃ロール、技能チェック、セーヴィングスロー、成功または失敗の判定に使用されます。",
+        "d20_description": "D20 (20面ダイス) – 最も重要な骰子で、攻撃ロール、技能チェック、セーヴィングスロー、成功または失敗の判定に使用されます。",
         "d100_description": "D100 (パーセンタイルダイス) – パーセンテージを振るために使用され、ランダムな効果や戦利品を決定するためにD10と組み合わせて使用されることがよくあります。",
         "no_more_names_to_select": "選択する名前はもうありません。",
-        "close_button_text": "閉じる"
+        "close_button_text": "閉じる",
+        "card_game_screen_title": "カードゲームヘルパー",
+        "go_to_card_game_screen": "カードゲームへ",
+        "select_card_game_label": "カードゲームを選択:",
+        "card_game_rules_title": "ゲームのルール:"
     },
     "ko": { # Korean translations
         "select_language_prompt": "언어를 선택하세요 (예: en, ko): ",
@@ -553,10 +601,10 @@ translations = {
         "dice_roll_result": "결과: {result} (주사위 1: {d1}, 주사위 2: {d2}) 게임: {game}",
         "go_to_dice_roller": "주사위 굴리개로 이동",
         "go_to_name_selector": "이름 선택기로 이동",
-        "dnd_screen_title": "던전 앤 드래곤 헬퍼",
-        "go_to_dnd_screen": "D&D 헬퍼로 이동",
-        "dnd_roll_button": "{die} 굴리기",
-        "dnd_roll_result": "{die}을(를) 굴려 {result}이(가) 나왔습니다",
+        "dnd_screen_title": "던전 앤 드래곤 헬프어",
+        "go_to_dnd_screen": "D&D 헬프어로 이동",
+        "dnd_roll_button": "롤 {die}",
+        "dnd_roll_result": "당신은 {die}을(를) 굴려 {result}이(가) 나왔습니다",
         "dnd_help_button": "도움말",
         "dnd_help_title": "주사위 정보",
         "d4_description": "D4 (4면체 주사위) – 단검이나 매직 미사일 주문과 같은 작은 피해 굴림에 사용됩니다.",
@@ -567,7 +615,11 @@ translations = {
         "d20_description": "D20 (20면체 주사위) – 가장 중요한 주사위로 공격 굴림, 기술 확인, 내성 굴림, 성공 또는 실패 판별에 사용됩니다.",
         "d100_description": "D100 (백분위 주사위) – 백분율을 굴리는 데 사용되며 무작위 효과나 전리품을 결정하기 위해 D10과 함께 자주 사용됩니다.",
         "no_more_names_to_select": "더 이상 선택할 이름이 없습니다.",
-        "close_button_text": "닫기"
+        "close_button_text": "닫기",
+        "card_game_screen_title": "카드 게임 도우미",
+        "go_to_card_game_screen": "카드 게임으로 가기",
+        "select_card_game_label": "카드 게임 선택:",
+        "card_game_rules_title": "게임 규칙:"
     },
     "hi": { # Hindi translations
         "select_language_prompt": "भाषा चुनें (उदा. en, hi): ",
@@ -610,7 +662,11 @@ translations = {
         "d20_description": "D20 (बीस-पक्षीय पासा) – सबसे महत्वपूर्ण पासा, हमले के रोल, कौशल जांच, बचत थ्रो और सफलता या विफलता का निर्धारण करने के लिए उपयोग किया जाता है।",
         "d100_description": "D100 (प्रतिशत पासा) – प्रतिशत रोल करने के लिए उपयोग किया जाता है, अक्सर यादृच्छिक प्रभाव या लूट का निर्धारण करने के लिए D10 के साथ संयोजन में।",
         "no_more_names_to_select": "चुनने के लिए और नाम नहीं हैं।",
-        "close_button_text": "बंद करें"
+        "close_button_text": "बंद करें",
+        "card_game_screen_title": "कार्ड गेम सहायक",
+        "go_to_card_game_screen": "कार्ड गेम पर जाएं",
+        "select_card_game_label": "कार्ड गेम चुनें:",
+        "card_game_rules_title": "खेल के नियम:"
     },
     "ar": { # Arabic translations
         "select_language_prompt": "اختر اللغة (مثال: en, ar): ",
@@ -653,7 +709,11 @@ translations = {
         "d20_description": "D20 (نرد عشروني الأوجه) – أهم نرد، يستخدم لرميات الهجوم، وفحوصات المهارة، ورميات الإنقاذ، وتحديد النجاح أو الفشل.",
         "d100_description": "D100 (نرد النسبة المئوية) – يستخدم لرمي النسب المئوية، غالبًا بالاقتران مع D10 لتحديد التأثيرات العشوائية أو الغنائم.",
         "no_more_names_to_select": "لا توجد أسماء أخرى للاختيار.",
-        "close_button_text": "إغلاق"
+        "close_button_text": "إغلاق",
+        "card_game_screen_title": "مساعد ألعاب الورق",
+        "go_to_card_game_screen": "اذهب إلى ألعاب الورق",
+        "select_card_game_label": "اختر لعبة ورق:",
+        "card_game_rules_title": "قواعد اللعبة:"
     },
     "tr": { # Turkish translations
         "select_language_prompt": "Dil seçin (örn. en, tr): ",
@@ -696,7 +756,11 @@ translations = {
         "d20_description": "D20 (yirmi yüzlü zar) – En önemli zar, saldırı atışları, beceri kontrolleri, kurtulma atışları ve başarı veya başarısızlığı belirlemek için kullanılır.",
         "d100_description": "D100 (yüzdelik zar) – Yüzdeleri atmak için kullanılır, genellikle rastgele etkileri veya ganimeti belirlemek için bir D10 ile birlikte kullanılır.",
         "no_more_names_to_select": "Seçilecek başka isim kalmadı.",
-        "close_button_text": "Kapat"
+        "close_button_text": "Kapat",
+        "card_game_screen_title": "Kart Oyunu Yardımcısı",
+        "go_to_card_game_screen": "Kart Oyunlarına Git",
+        "select_card_game_label": "Kart Oyunu Seçin:",
+        "card_game_rules_title": "Oyun Kuralları:"
     },
     "vi": { # Vietnamese translations
         "select_language_prompt": "Chọn ngôn ngữ (ví dụ: en, vi): ",
@@ -739,7 +803,11 @@ translations = {
         "d20_description": "D20 (xúc xắc hai mươi mặt) – Xúc xắc quan trọng nhất, được sử dụng cho các lần tung tấn công, kiểm tra kỹ năng, tung cứu thua và xác định thành công hay thất bại.",
         "d100_description": "D100 (xúc xắc phần trăm) – Dùng để tung phần trăm, thường kết hợp với D10 để xác định các hiệu ứng ngẫu nhiên hoặc chiến lợi phẩm.",
         "no_more_names_to_select": "Không còn tên nào để chọn.",
-        "close_button_text": "Đóng"
+        "close_button_text": "Đóng",
+        "card_game_screen_title": "Trợ giúp Trò chơi Bài",
+        "go_to_card_game_screen": "Đến Trợ giúp Trò chơi Bài",
+        "select_card_game_label": "Chọn Trò chơi Bài:",
+        "card_game_rules_title": "Luật chơi:"
     },
     "th": { # Thai translations
         "select_language_prompt": "เลือกภาษา (เช่น en, th): ",
@@ -782,7 +850,11 @@ translations = {
         "d20_description": "D20 (ลูกเต๋ายี่สิบหน้า) – ลูกเต๋าที่สำคัญที่สุด ใช้สำหรับการทอยโจมตี การตรวจสอบทักษะ การทอยป้องกัน และการตัดสินความสำเร็จหรือความล้มเหลว",
         "d100_description": "D100 (ลูกเต๋าเปอร์เซ็นต์) – ใช้สำหรับการทอยเปอร์เซ็นต์ มักใช้ร่วมกับ D10 เพื่อกำหนดผลแบบสุ่มหรือของที่ปล้นมาได้",
         "no_more_names_to_select": "ไม่มีชื่อให้เลือกอีกแล้ว",
-        "close_button_text": "ปิด"
+        "close_button_text": "ปิด",
+        "card_game_screen_title": "ผู้ช่วยเกมไพ่",
+        "go_to_card_game_screen": "ไปที่เกมไพ่",
+        "select_card_game_label": "เลือกเกมไพ่:",
+        "card_game_rules_title": "กติกาของเกม:"
     },
     "he": { # Hebrew translations
         "select_language_prompt": "בחר שפה (לדוגמה: en, he): ",
@@ -825,7 +897,11 @@ translations = {
         "d20_description": "ק20 (קובייה עשרים-פונית) – הקובייה החשובה ביותר, משמשת לגלגולי התקפה, בדיקות מיומנות, גלגולי הצלה ולקביעת הצלחה או כישלון.",
         "d100_description": "ק100 (קוביית אחוזים) – משמשת לגלגול אחוזים, לעתים קרובות בשילוב עם ק10 לקביעת אפקטים אקראיים או שלל.",
         "no_more_names_to_select": "לא נותרו עוד שמות לבחירה.",
-        "close_button_text": "סגור"
+        "close_button_text": "סגור",
+        "card_game_screen_title": "עוזר משחקי קלפים",
+        "go_to_card_game_screen": "עבור למשחקי קלפים",
+        "select_card_game_label": "בחר משחק קלפים:",
+        "card_game_rules_title": "חוקי המשחק:"
     },
     # --- African Languages ---
     "sw": { # Swahili translations
@@ -869,7 +945,11 @@ translations = {
         "d20_description": "D20 (kete yenye pande ishirini) – Kete muhimu zaidi, hutumika kwa mashambulizi, majaribio ya ujuzi, mioko ya kuokoa, na kuamua mafanikio au kutofaulu.",
         "d100_description": "D100 (kete ya asilimia) – Hutumika kwa kuviringisha asilimia, mara nyingi pamoja na D10 kuamua athari za nasibu au nyara.",
         "no_more_names_to_select": "Hakuna majina zaidi ya kuchagua.",
-        "close_button_text": "Funga"
+        "close_button_text": "Funga",
+        "card_game_screen_title": "Msaidizi wa Michezo ya Kadi",
+        "go_to_card_game_screen": "Nenda kwa Michezo ya Kadi",
+        "select_card_game_label": "Chagua Mchezo wa Kadi:",
+        "card_game_rules_title": "Sheria za Mchezo:"
     },
     "ha": { # Hausa translations
         "select_language_prompt": "Zaɓi harshe (misali en, ha): ",
@@ -912,7 +992,11 @@ translations = {
         "d20_description": "K20 (kość dwudziestościenna) – Najważniejsza kość, używana do rzutów ataku, testów umiejętności, rzutów obronnych oraz do określania sukcesu lub porażki.",
         "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów.",
         "no_more_names_to_select": "Babu sauran sunaye da za a zaɓa.",
-        "close_button_text": "Rufe"
+        "close_button_text": "Rufe",
+        "card_game_screen_title": "Mataimakin Wasan Kati",
+        "go_to_card_game_screen": "Je zuwa Wasannin Kati",
+        "select_card_game_label": "Zaɓi Wasan Kati:",
+        "card_game_rules_title": "Dokokin Wasan:"
     },
     "sv": { # Swedish translations
         "select_language_prompt": "Välj språk (t.ex. en, sv): ",
@@ -955,7 +1039,11 @@ translations = {
         "d20_description": "T20 (tjugosidig tärning) – Den viktigaste tärningen, används för attackslag, färdighetsslag, räddningsslag och för att avgöra framgång eller misslyckande.",
         "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte.",
         "no_more_names_to_select": "Inga fler namn att välja.",
-        "close_button_text": "Stäng" # Re-added for consistency
+        "close_button_text": "Stäng",
+        "card_game_screen_title": "Kortspelshjälpare",
+        "go_to_card_game_screen": "Gå till Kortspel",
+        "select_card_game_label": "Välj Kortspel:",
+        "card_game_rules_title": "Spelregler:"
     },
     "zh-CN": { # Simplified Chinese translations
         "select_language_prompt": "选择语言 (例如: en, es): ",
@@ -999,7 +1087,11 @@ translations = {
         "d20_description": "D20 (二十面骰) – 最重要的骰子，用于攻击掷骰、技能检定、豁免检定以及确定成功或失败。",
         "d100_description": "D100 (百分骰) – 用于掷百分比，通常与D10结合使用以确定随机效果或战利品。",
         "no_more_names_to_select": "没有更多名称可供选择。",
-        "close_button_text": "关闭"
+        "close_button_text": "关闭",
+        "card_game_screen_title": "纸牌游戏助手",
+        "go_to_card_game_screen": "前往纸牌游戏",
+        "select_card_game_label": "选择纸牌游戏:",
+        "card_game_rules_title": "游戏规则:"
     },
     "zh-TW": { # Traditional Chinese translations
         "select_language_prompt": "選擇語言 (例如: en, es): ",
@@ -1040,10 +1132,14 @@ translations = {
         "d8_description": "D8 (八面骰) – 常用於中等傷害武器，例如釘頭錘和某些法術。",
         "d10_description": "D10 (十面骰) – 用於較大的傷害擲骰，例如某些軍用武器和法術效果。",
         "d12_description": "D12 (十二面骰) – 通常用於重型武器傷害，例如野蠻人的巨斧。",
-        "d20_description": "D20 (二十面骰) – 最重要的骰子，用於攻擊擲骰、技能檢定、豁免檢定以及確定成功或失敗。",
+        "d20_description": "D20 (二十面骰) – 最重要的骰子，用於攻擊掷骰、技能检定、豁免检定以及確定成功或失敗。",
         "d100_description": "D100 (百分骰) – 用於擲百分比，通常與D10結合使用以確定隨機效果或戰利品。",
         "no_more_names_to_select": "沒有更多名稱可供選擇。",
-        "close_button_text": "關閉"
+        "close_button_text": "關閉",
+        "card_game_screen_title": "紙牌遊戲助手",
+        "go_to_card_game_screen": "前往紙牌遊戲",
+        "select_card_game_label": "選擇紙牌遊戲:",
+        "card_game_rules_title": "遊戲規則:"
     }
 }
 boardgames=["Monopoly", "Risk", "Settlers of Catan", "Axis & Allies", "Backgammon", "Clue", "The Game of Life", "Ludo",
@@ -1053,6 +1149,72 @@ boardgames=["Monopoly", "Risk", "Settlers of Catan", "Axis & Allies", "Backgammo
             "Wits & Wagers Deluxe", "Mahadev Jumbo Sequence", "Santa’s Rooftop Scramble", "One Night Ultimate Alien"
 
 ]
+card_games_list = ["Poker", "Blackjack", "Rummy", "Bridge", "Euchre", "Hearts", "Spades", "Go Fish", "Uno", "Crazy Eights", "Pinochle", "Canasta", "Gin Rummy", "Old Maid", "War", "Solitaire", "Snap", "Cribbage", "Whist", "Durak", "President", "Exploding Kittens", "Mao", "Skat", "Baccarat", "Bezique", "Briscola", "Piquet", "Napoleon", "Patience", "Sheepshead", "Ombre", "Scopa", "Tressette", "Cuarenta", "Hanafuda", "Tarot", "Wizard", "Dutch Blitz", "Phase 10"]
+
+# card_game_rules = { # This will be replaced by card_game_rules_translations
+#     "Poker": "Objective: Win chips by having the best hand or by bluffing other players into folding.\\\\nBasic Rules: Players are dealt cards and bet in rounds. Hand rankings determine the winner. Common variants include Texas Hold\'em and Five Card Draw.",
+#     # ... other English rules ...
+# }
+
+card_game_rules_translations = {
+    "en": {
+        "Poker": "Objective: Win chips by having the best hand or by bluffing other players into folding.\\\\nBasic Rules: Players are dealt cards and bet in rounds. Hand rankings determine the winner. Common variants include Texas Hold\'em and Five Card Draw.",
+        "Blackjack": "Objective: Get a hand total closer to 21 than the dealer, without exceeding 21.\\\\nBasic Rules: Number cards are face value, face cards are 10, Aces are 1 or 11. Players \'hit\' (take a card) or \'stand\' (keep their hand).",
+        "Rummy": "Objective: Form sets (three or four of a kind) or runs (three or more consecutive cards of the same suit).\\\\nBasic Rules: Players draw and discard cards to form melds. The first to meld all their cards wins.",
+        "Bridge": "Objective: Win tricks for your partnership. A trick is won by the highest card of the suit led, or the highest trump if trumps are played.\\\\nBasic Rules: A complex trick-taking game involving bidding and play. Played by four players in two partnerships.",
+        "Euchre": "Objective: Score points by winning at least three of the five tricks in a hand.\\\\nBasic Rules: A trick-taking game usually played with a 24-card deck (9, 10, J, Q, K, A). Trump suit is determined each hand.",
+        "Hearts": "Objective: Avoid taking hearts and the Queen of Spades.\\\\nBasic Rules: A trick-taking game where players try to avoid specific penalty cards. Lowest score wins.",
+        "Spades": "Objective: Accurately bid the number of tricks you and your partner will take. Spades are always trump.\\\\nBasic Rules: A trick-taking game where players bid and try to meet their bid. Spades cannot be led until \'broken\'.",
+        "Go Fish": "Objective: Collect the most sets of four cards of the same rank (books).\\\\nBasic Rules: Players ask opponents for specific ranks. If the opponent has them, they hand them over; otherwise, the asker \'goes fish\' (draws from the deck).",
+        "Uno": "Objective: Be the first player to get rid of all your cards.\\\\nBasic Rules: Players match the top card on the discard pile by number, color, or symbol. Special action cards add twists.",
+        "Crazy Eights": "Objective: Be the first player to empty your hands of cards by matching the rank or suit of the previous card played.\\\\nBasic Rules: Eights are wild and can be played on any card, allowing the player to declare the suit for the next play.",
+        "Pinochle": "Objective: Score points by melding combinations of cards and by taking tricks containing valuable cards (Aces, Tens, Kings).\\\\nBasic Rules: A trick-taking and melding game typically played with a 48-card deck (two copies of 9, 10, J, Q, K, A of each suit).",
+        "Canasta": "Objective: Score points by melding cards of same rank and making canastas (melds of at least seven cards of the same rank).\\\\nBasic Rules: A Rummy-type game played with two decks of cards. Partnerships try to score points by melding and going out.",
+        "Gin Rummy": "Objective: Form your hand into sets and runs, and \'knock\' when the value of your unmatched cards (deadwood) is low enough.\\\\nBasic Rules: A two-player Rummy variant. Players draw and discard to improve their hand.",
+        "Old Maid": "Objective: Avoid being the player left holding the \'Old Maid\' card (an unmatched Queen, or a designated card).\\\\nBasic Rules: Players take cards from each other, discarding pairs. The player with the Old Maid at the end loses.",
+        "War": "Objective: Win all the cards in the deck.\\\\nBasic Rules: Players simultaneously flip a card. The higher card wins both. If cards are equal, players go to \'war\' (deal additional cards face down, then one face up - winner takes all).",
+        "Solitaire": "Objective: Move all cards to the foundation piles, sorted by suit and rank from Ace to King.\\\\nBasic Rules: A single-player game involving arranging cards from a tableau into foundation piles.",
+        "Snap": "Objective: Win cards by being the first to shout \'Snap!\' when two matching cards are played consecutively.\\\\nBasic Rules: Players take turns playing cards face up onto a central pile. If a played card matches the one immediately below it, the first player to call \'Snap!\' wins the pile.",
+        "Cribbage": "Objective: Be the first player to score 121 points (or 61 points) through card combinations in hand, in the \'crib\', and during play.\\\\nBasic Rules: Involves a unique board for scoring. Players form combinations for points (pairs, runs, flushes, 15s).",
+        "Whist": "Objective: Win tricks for your partnership.\\\\nBasic Rules: A plain-trick game without bidding, played by four players in fixed partnerships. The last card dealt determines the trump suit.",
+        "Durak": "Objective: Get rid of all your cards. The last player with cards is the \'durak\' (fool).\\\\nBasic Rules: A Russian card game. Players attack with cards, and defenders must beat them with higher cards of the same suit or trumps.",
+        "President": "Objective: Be the first player to get rid of all your cards in each round to become \'President\' in the next.\\\\nBasic Rules: A shedding-type game where players try to play higher cards or sets of cards than the previous player.",
+        "Exploding Kittens": "Objective: Avoid drawing an Exploding Kitten card. If you do, you must defuse it or you\'re out.\\\\nBasic Rules: A highly strategic, kitty-powered version of Russian Roulette. Players draw cards until someone draws an Exploding Kitten.",
+        "Mao": "Objective: Be the first player to get rid of all your cards by following unstated rules that players learn through penalties.\\\\nBasic Rules: The rules are secret and new players learn by observation and being penalized for breaking them. The dealer makes up initial rules.",
+        "Skat": "Objective: Win points through successful bids to play various game types, or by defeating the declarer\'s bid.\\\\nBasic Rules: Germany\'s national card game, a 3-player trick-taking game with complex bidding and play.",
+        "Baccarat": "Objective: Bet on which of two hands, the \'Player\' or the \'Banker\', will have a total closest to 9.\\\\nBasic Rules: A comparing card game. Cards have point values; hands are totaled modulo 10.",
+        "Bezique": "Objective: Score points by melding combinations (especially Bezique - Queen of Spades and Jack of Diamonds) and winning tricks with Aces and Tens.\\\\nBasic Rules: A trick-taking game for two players using a 64-card deck (two 32-card decks combined).",
+        "Briscola": "Objective: Win tricks containing valuable cards, especially Aces and Threes.\\\\nBasic Rules: An Italian trick-taking game. A trump suit (Briscola) is determined. Players try to win point-scoring cards.",
+        "Piquet": "Objective: Score points for various combinations in hand and for winning more tricks than the opponent.\\\\nBasic Rules: A trick-taking game for two players using a 32-card deck (7s through Aces).",
+        "Napoleon": "Objective: The bidder (Napoleon) tries to win a declared number of tricks, with a chosen suit as trump.\\\\nBasic Rules: A trick-taking game where players bid for the right to name trump and attempt to win a certain number of tricks.",
+        "Patience": "Another name for Solitaire. Objective: Move all cards to the foundation piles, sorted by suit and rank from Ace to King.",
+        "Sheepshead": "Objective: Score points by taking tricks containing valuable cards. The player who picks up the \'blind\' (two face-down cards) often plays alone against the others.\\\\nBasic Rules: An American trick-taking game derived from Skat, popular in Wisconsin. Uses a 32-card deck.",
+        "Ombre": "Objective: For the declarer (Ombre) to win more tricks than either opponent individually.\\\\nBasic Rules: A classic three-player trick-taking game, one of the oldest card games still played. Involves bidding and a trump suit.",
+        "Scopa": "Objective: Capture cards from the table by matching or summing to the value of a card played from hand. Points are awarded for scopas (sweeps), cards captured, sevens, and primes.\\\\nBasic Rules: An Italian card game. Players try to \'sweep\' the table or capture valuable cards.",
+        "Tressette": "Objective: Score points by capturing valuable cards in tricks, especially Aces.\\\\nBasic Rules: An Italian trick-taking game, often played in partnerships. No trump suit is usually used.",
+        "Cuarenta": "Objective: Score 40 points by capturing cards and forming combinations.\\\\nBasic Rules: Ecuador\'s national card game. A fishing-style game with specific point values for captures and sequences.",
+        "Hanafuda": "Objective: Score points by collecting sets of cards (yaku) based on months or specific combinations.\\\\nBasic Rules: Japanese flower cards. Various games can be played, most involve matching cards by month/flower type.",
+        "Tarot": "Objective: Varies by game. Often, the declarer aims to win a certain number of points from tricks, using the Tarot cards as trumps.\\\\nBasic Rules: Played with a Tarot deck. Many regional variations exist, most are trick-taking games.",
+        "Wizard": "Objective: Correctly predict the number of tricks you will win in each round.\\\\nBasic Rules: A trick-taking game with a 60-card deck (standard 52 cards plus 4 Wizards and 4 Jesters). Wizards always win tricks, Jesters always lose.",
+        "Dutch Blitz": "Objective: Be the first player to empty your Blitz Pile by playing cards in sequence and color onto Dutch Piles.\\\\nBasic Rules: A fast-paced, real-time multiplayer solitaire game. Players play simultaneously.",
+        "Phase 10": "Objective: Be the first player to complete all 10 phases (specific sets or runs of cards).\\\\nBasic Rules: A Rummy-type game where players must complete specific card combinations (phases) in order. If you don\'t complete the phase, you try again next round."
+    },
+    "es": {
+        "Poker": "Objetivo: Ganar fichas teniendo la mejor mano o faroleando para que otros jugadores se retiren.\\\\nReglas básicas: Se reparten cartas a los jugadores y se apuesta en rondas. Las clasificaciones de manos determinan al ganador. Variantes comunes incluyen Texas Hold\'em y Five Card Draw.",
+        "Blackjack": "Objetivo: Obtener un total de mano más cercano a 21 que el crupier, sin exceder 21.\\\\nReglas básicas: Las cartas numéricas valen su valor nominal, las figuras valen 10, los Ases valen 1 u 11. Los jugadores \'piden\' (toman una carta) o \'se plantan\' (mantienen su mano).",
+        "Uno": "Objetivo: Ser el primer jugador en deshacerse de todas sus cartas.\\\\nReglas básicas: Los jugadores emparejan la carta superior del montón de descarte por número, color o símbolo. Las cartas de acción especiales añaden giros.",
+        # Add other Spanish translations here
+    },
+    "fr": {
+        "Poker": "Objectif : Gagner des jetons en ayant la meilleure main ou en bluffant les autres joueurs pour les faire se coucher.\\\\nRègles de base : Les joueurs reçoivent des cartes et parient à tour de rôle. Le classement des mains détermine le gagnant. Les variantes courantes incluent le Texas Hold\'em et le Five Card Draw.",
+        "Blackjack": "Objectif : Obtenir un total de main plus proche de 21 que celui du croupier, sans dépasser 21.\\\\nRègles de base : Les cartes numérotées ont leur valeur faciale, les figures valent 10, les As valent 1 ou 11. Les joueurs \'tirent\' (prennent une carte) ou \'restent\' (gardent leur main).",
+        "Uno": "Objectif : Être le premier joueur à se débarrasser de toutes ses cartes.\\\\nRègles de base : Les joueurs assortissent la carte du dessus de la pile de défausse par numéro, couleur ou symbole. Les cartes d\'action spéciales ajoutent des rebondissements.",
+        # Add other French translations here
+    },
+    # Add other languages and their translations similarly
+    # e.g., "ger": { "Poker": "...", ... }, "ja": { "Poker": "...", ... }
+}
+
 current_language = "en" 
 
 # Moved get_message function here
@@ -1171,19 +1333,29 @@ def show_dnd_help():
 def show_name_selector_frame():
     dice_roller_frame.pack_forget()
     dnd_frame.pack_forget() # Hide D&D frame
+    card_game_frame.pack_forget() # Hide Card Game frame
     name_selector_frame.pack(fill="both", expand=True)
     update_ui_language() # Refresh button text
 
 def show_dice_roller_frame():
     name_selector_frame.pack_forget()
     dnd_frame.pack_forget() # Hide D&D frame
+    card_game_frame.pack_forget() # Hide Card Game frame
     dice_roller_frame.pack(fill="both", expand=True)
     update_ui_language() # Refresh button text
 
 def show_dnd_frame():
     name_selector_frame.pack_forget()
     dice_roller_frame.pack_forget()
+    card_game_frame.pack_forget() # Hide Card Game frame
     dnd_frame.pack(fill="both", expand=True)
+    update_ui_language()
+
+def show_card_game_frame(): # New function for Card Game screen
+    name_selector_frame.pack_forget()
+    dice_roller_frame.pack_forget()
+    dnd_frame.pack_forget()
+    card_game_frame.pack(fill="both", expand=True)
     update_ui_language()
 
 def add_name_ui():
@@ -1222,7 +1394,10 @@ def update_ui_language(lang_code=None):
     global dice_roller_title_label, select_game_label, roll_dice_button
     global name_selector_to_dice_button, dice_roller_to_name_button
     global dnd_title_label, name_selector_to_dnd_button, dice_roller_to_dnd_button, dnd_to_name_selector_button, dnd_to_dice_roller_button
-    global dnd_roll_d4_button, dnd_roll_d6_button, dnd_roll_d8_button, dnd_roll_d10_button, dnd_roll_d12_button, dnd_roll_d20_button, dnd_roll_d100_button, dnd_help_button # D&D buttons
+    global dnd_roll_d4_button, dnd_roll_d6_button, dnd_roll_d8_button, dnd_roll_d10_button, dnd_roll_d12_button, dnd_roll_d20_button, dnd_roll_d100_button, dnd_help_button
+    global card_game_title_label, select_card_game_dropdown_label, card_game_rules_display_label # New label for card game screen dropdown
+    global name_selector_to_card_game_button, dice_roller_to_card_game_button, dnd_to_card_game_button # New navigation buttons
+    global card_game_to_name_selector_button, card_game_to_dice_roller_button, card_game_to_dnd_button # New navigation buttons
 
     if lang_code and lang_code in translations:
         current_language = lang_code
@@ -1249,6 +1424,19 @@ def update_ui_language(lang_code=None):
     if 'dnd_title_label' in globals() and dnd_title_label:
         dnd_title_label.config(text=get_message("dnd_screen_title"))
 
+    # Update Card Game screen title
+    if 'card_game_title_label' in globals() and card_game_title_label:
+        card_game_title_label.config(text=get_message("card_game_screen_title"))
+    
+    # Update Card Game screen dropdown label
+    if 'select_card_game_dropdown_label' in globals() and select_card_game_dropdown_label:
+        select_card_game_dropdown_label.config(text=get_message("select_card_game_label"))
+    
+    # Update Card Game rules display label
+    if 'card_game_rules_display_label' in globals() and card_game_rules_display_label:
+        card_game_rules_display_label.config(text=get_message("card_game_rules_title"))
+        show_card_game_rules() # Refresh rules text if a game is selected
+
     # Update D&D buttons
     if 'dnd_roll_d4_button' in globals() and dnd_roll_d4_button: dnd_roll_d4_button.config(text=get_message("dnd_roll_button", die="D4"))
     if 'dnd_roll_d6_button' in globals() and dnd_roll_d6_button: dnd_roll_d6_button.config(text=get_message("dnd_roll_button", die="D6"))
@@ -1272,6 +1460,20 @@ def update_ui_language(lang_code=None):
         dnd_to_name_selector_button.config(text=get_message("go_to_name_selector"))
     if 'dnd_to_dice_roller_button' in globals() and dnd_to_dice_roller_button:
         dnd_to_dice_roller_button.config(text=get_message("go_to_dice_roller"))
+    
+    # Update new navigation buttons for Card Game Screen
+    if 'name_selector_to_card_game_button' in globals() and name_selector_to_card_game_button:
+        name_selector_to_card_game_button.config(text=get_message("go_to_card_game_screen"))
+    if 'dice_roller_to_card_game_button' in globals() and dice_roller_to_card_game_button:
+        dice_roller_to_card_game_button.config(text=get_message("go_to_card_game_screen"))
+    if 'dnd_to_card_game_button' in globals() and dnd_to_card_game_button:
+        dnd_to_card_game_button.config(text=get_message("go_to_card_game_screen"))
+    if 'card_game_to_name_selector_button' in globals() and card_game_to_name_selector_button:
+        card_game_to_name_selector_button.config(text=get_message("go_to_name_selector"))
+    if 'card_game_to_dice_roller_button' in globals() and card_game_to_dice_roller_button:
+        card_game_to_dice_roller_button.config(text=get_message("go_to_dice_roller"))
+    if 'card_game_to_dnd_button' in globals() and card_game_to_dnd_button:
+        card_game_to_dnd_button.config(text=get_message("go_to_dnd_screen"))
 
     # Update status message based on current game state or set to initial
     if not names and not winners:
@@ -1293,7 +1495,32 @@ def on_language_select(event):
         display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\\n" + get_message("no_more_names_to_select"))
     elif not names and not winners:
         display_var.set(get_message("status_initial"))
+    
+    # If on card game screen, update rules display
+    if card_game_frame.winfo_ismapped():
+        show_card_game_rules()
 
+
+# ---------- Card Game Screen Functions ----------
+def show_card_game_rules(event=None):
+    """Displays the rules for the selected card game."""
+    global current_language # Ensure we are using the global current_language
+    selected_game = card_game_var.get()
+    
+    # Try to get rules for the current language
+    lang_rules = card_game_rules_translations.get(current_language, {})
+    rules = lang_rules.get(selected_game)
+    
+    # If rules not found for current language, fall back to English
+    if rules is None:
+        lang_rules_en = card_game_rules_translations.get("en", {}) # Default to "en" if it exists
+        rules = lang_rules_en.get(selected_game, "Rules not available for this game.") # Fallback message
+    
+    # Enable the text widget, clear it, insert new rules, then disable it
+    card_game_rules_text.config(state=tk.NORMAL)
+    card_game_rules_text.delete("1.0", tk.END)
+    card_game_rules_text.insert(tk.END, rules)
+    card_game_rules_text.config(state=tk.DISABLED)
 
 # ---------- Main Window ----------
 root = tk.Tk()
@@ -1304,6 +1531,7 @@ root.configure(bg=BG_COLOR)
 name_selector_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame')
 dice_roller_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame')
 dnd_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame') # D&D Frame
+card_game_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame') # Card Game Frame
 
 style = ttk.Style()
 style.configure('TFrame', background=BG_COLOR)
@@ -1356,11 +1584,19 @@ display_var = tk.StringVar()
 display_label = ttk.Label(name_selector_frame, textvariable=display_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR, wraplength=380)
 display_label.pack(pady=(10, 10))
 
-name_selector_to_dice_button = ttk.Button(name_selector_frame, command=show_dice_roller_frame)
-name_selector_to_dice_button.pack(pady=(10,0), side=tk.LEFT, expand=True)
+# Navigation buttons for Name Selector frame
+name_selector_nav_frame = ttk.Frame(name_selector_frame, style='TFrame')
+name_selector_nav_frame.pack(pady=(10,0), fill='x', expand=True)
 
-name_selector_to_dnd_button = ttk.Button(name_selector_frame, command=show_dnd_frame)
-name_selector_to_dnd_button.pack(pady=(10,0), side=tk.RIGHT, expand=True)
+name_selector_to_dice_button = ttk.Button(name_selector_nav_frame, command=show_dice_roller_frame)
+name_selector_to_dice_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+name_selector_to_dnd_button = ttk.Button(name_selector_nav_frame, command=show_dnd_frame)
+name_selector_to_dnd_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+name_selector_to_card_game_button = ttk.Button(name_selector_nav_frame, command=show_card_game_frame) # New Button
+name_selector_to_card_game_button.pack(side=tk.LEFT, expand=True, padx=2)
+
 
 # --- Dice Roller Frame Widgets ---
 dice_roller_title_label = ttk.Label(dice_roller_frame, font=FONT_TITLE) 
@@ -1380,11 +1616,18 @@ dice_result_var = tk.StringVar()
 dice_result_label = ttk.Label(dice_roller_frame, textvariable=dice_result_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR, wraplength=380)
 dice_result_label.pack(pady=(5,10))
 
-dice_roller_to_name_button = ttk.Button(dice_roller_frame, command=show_name_selector_frame)
-dice_roller_to_name_button.pack(pady=(10,0), side=tk.LEFT, expand=True)
+# Navigation buttons for Dice Roller frame
+dice_roller_nav_frame = ttk.Frame(dice_roller_frame, style='TFrame')
+dice_roller_nav_frame.pack(pady=(10,0), fill='x', expand=True)
 
-dice_roller_to_dnd_button = ttk.Button(dice_roller_frame, command=show_dnd_frame)
-dice_roller_to_dnd_button.pack(pady=(10,0), side=tk.RIGHT, expand=True)
+dice_roller_to_name_button = ttk.Button(dice_roller_nav_frame, command=show_name_selector_frame)
+dice_roller_to_name_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+dice_roller_to_dnd_button = ttk.Button(dice_roller_nav_frame, command=show_dnd_frame)
+dice_roller_to_dnd_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+dice_roller_to_card_game_button = ttk.Button(dice_roller_nav_frame, command=show_card_game_frame) # New Button
+dice_roller_to_card_game_button.pack(side=tk.LEFT, expand=True, padx=2)
 
 # --- Dungeons & Dragons Frame Widgets ---
 dnd_title_label = ttk.Label(dnd_frame, font=FONT_TITLE)
@@ -1418,14 +1661,61 @@ dnd_nav_frame = ttk.Frame(dnd_frame, style='TFrame')
 dnd_nav_frame.pack(pady=(10,0), fill='x', expand=True)
 
 dnd_to_name_selector_button = ttk.Button(dnd_nav_frame, command=show_name_selector_frame)
-dnd_to_name_selector_button.pack(side=tk.LEFT, expand=True, padx=5)
+dnd_to_name_selector_button.pack(side=tk.LEFT, expand=True, padx=2)
 
 dnd_to_dice_roller_button = ttk.Button(dnd_nav_frame, command=show_dice_roller_frame)
-dnd_to_dice_roller_button.pack(side=tk.RIGHT, expand=True, padx=5)
+dnd_to_dice_roller_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+dnd_to_card_game_button = ttk.Button(dnd_nav_frame, command=show_card_game_frame) # New Button
+dnd_to_card_game_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+# --- Card Game Frame Widgets ---
+card_game_title_label = ttk.Label(card_game_frame, font=FONT_TITLE)
+card_game_title_label.pack(pady=(10,0))
+
+# Label for card game dropdown
+select_card_game_dropdown_label = ttk.Label(card_game_frame)
+select_card_game_dropdown_label.pack(pady=(5,0))
+
+# Card game dropdown
+card_game_var = tk.StringVar(value=card_games_list[0] if card_games_list else "")
+card_game_dropdown = ttk.Combobox(card_game_frame, textvariable=card_game_var, values=card_games_list, state="readonly", width=38)
+card_game_dropdown.pack(pady=(0,10))
+card_game_dropdown.bind("<<ComboboxSelected>>", show_card_game_rules) # Bind event to show rules
+
+# Label for rules display
+card_game_rules_display_label = ttk.Label(card_game_frame, font=FONT_INPUT) # Will be set by update_ui_language
+card_game_rules_display_label.pack(pady=(10,0))
+
+# Text widget for displaying card game rules
+card_game_rules_text = tk.Text(card_game_frame, wrap=tk.WORD, height=10, width=40, font=FONT_INPUT, relief=tk.SUNKEN, borderwidth=1)
+card_game_rules_text.pack(pady=(0,10), fill="x", expand=True)
+card_game_rules_text.config(state=tk.DISABLED) # Make it read-only initially
+
+
+# Placeholder for card game content (e.g., buttons for draw card, shuffle, etc.)
+# card_game_content_label = ttk.Label(card_game_frame, text="Card game features will be added here.", font=FONT_INPUT) # Commented out or remove if rules take its place
+# card_game_content_label.pack(pady=20)
+
+# Navigation buttons for Card Game frame
+card_game_nav_frame = ttk.Frame(card_game_frame, style='TFrame')
+card_game_nav_frame.pack(pady=(10,0), fill='x', expand=True)
+
+card_game_to_name_selector_button = ttk.Button(card_game_nav_frame, command=show_name_selector_frame)
+card_game_to_name_selector_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+card_game_to_dice_roller_button = ttk.Button(card_game_nav_frame, command=show_dice_roller_frame)
+card_game_to_dice_roller_button.pack(side=tk.LEFT, expand=True, padx=2)
+
+card_game_to_dnd_button = ttk.Button(card_game_nav_frame, command=show_dnd_frame)
+card_game_to_dnd_button.pack(side=tk.LEFT, expand=True, padx=2)
+
 
 # Initial UI language setup and frame display
 show_name_selector_frame() # Show name selector by default
 update_ui_language(current_language) 
+if card_games_list: # If there are card games, show rules for the first one by default
+    show_card_game_rules()
 
 # ---------- Run the App (moved to if __name__ == "__main__") ----------
 
