@@ -1,0 +1,6 @@
+{
+    "Poker": "Objectif : Gagner des jetons en ayant la meilleure main ou en bluffant les autres joueurs pour les faire se coucher.\\\\nRègles de base : Les joueurs reçoivent des cartes et parient à tour de rôle. Le classement des mains détermine le gagnant. Les variantes courantes incluent le Texas Hold'em et le Five Card Draw.",
+    "Blackjack": "Objectif : Obtenir un total de main plus proche de 21 que celui du croupier, sans dépasser 21.\\\\nRègles de base : Les cartes numérotées ont leur valeur faciale, les figures valent 10, les As valent 1 ou 11. Les joueurs 'tirent' (prennent une carte) ou 'restent' (gardent leur main).",
+    "Uno": "Objectif : Être le premier joueur à se débarrasser de toutes ses cartes.\\\\nRègles de base : Les joueurs assortissent la carte du dessus de la pile de défausse par numéro, couleur ou symbole. Les cartes d'action spéciales ajoutent des rebondissements."
+
+}
