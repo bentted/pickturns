@@ -165,3 +165,6 @@ Contributions are welcome! Here are some ways you can help:
 
 This project is open source. (You may want to add a specific license like MIT, GPL, etc., if you decide to choose one).
 
+![Screenshot 2025-05-16 220314](https://github.com/user-attachments/assets/6f85dfaa-207f-480b-b737-595c5404c6c0)
+![Screenshot 2025-05-16 214604](https://github.com/user-attachments/assets/d9d2efd4-64a7-4c64-a889-84ee9fecb00f)
+![Screenshot 2025-05-16 213816](https://github.com/user-attachments/assets/4db52861-8489-4a21-b3fa-6668b1dfbb6e)
