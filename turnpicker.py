@@ -39,9 +39,6 @@ def get_message(key, **kwargs):
         return key 
     return message_template.format(**kwargs)
 
-import tkinter as tk
-from tkinter import ttk
-
 # ---------- Styling Constants ----------
 BG_COLOR = "#f0f8ff"
 PRIMARY_COLOR = "#007acc"
