@@ -26,7 +26,26 @@ translations = {
         "add_name_button": "Add Name",
         "status_initial": "Add names and click 'Select Name'.",
         "language_dropdown_label": "Language:",
-        "enter_name_prompt_ui": "Please enter a name to add."
+        "enter_name_prompt_ui": "Please enter a name to add.",
+        "dice_roller_title": "Dice Roller",
+        "select_game_label": "Select Board Game:",
+        "roll_dice_button": "Roll Dice",
+        "dice_roll_result": "You rolled: {result} (Dice 1: {d1}, Dice 2: {d2}) for {game}",
+        "go_to_dice_roller": "Go to Dice Roller",
+        "go_to_name_selector": "Go to Name Selector",
+        "dnd_screen_title": "Dungeons & Dragons Helper",
+        "go_to_dnd_screen": "Go to D&D Helper",
+        "dnd_roll_button": "Roll {die}",
+        "dnd_roll_result": "You rolled a {die}: {result}",
+        "dnd_help_button": "Help",
+        "dnd_help_title": "Dice Information",
+        "d4_description": "D4 (four-sided die) – Used for small damage rolls, such as daggers or magic missile spells.",
+        "d6_description": "D6 (six-sided die) – Common for weapon damage, like short swords, and also used in character creation.",
+        "d8_description": "D8 (eight-sided die) – Often used for moderate damage weapons, such as maces and certain spells.",
+        "d10_description": "D10 (ten-sided die) – Used for larger damage rolls, such as certain martial weapons and spell effects.",
+        "d12_description": "D12 (twelve-sided die) – Typically used for heavy weapon damage, like a barbarian’s greataxe.",
+        "d20_description": "D20 (twenty-sided die) – The most important die, used for attack rolls, skill checks, saving throws, and determining success or failure.",
+        "d100_description": "D100 (percentile die) – Used for rolling percentages, often in conjunction with a D10 to determine random effects or loot."
     },
     "es": { #  Spanish translations
         "select_language_prompt": "Selecciona el idioma (ej. en, es): ",
@@ -49,7 +68,26 @@ translations = {
         "add_name_button": "Añadir Nombre",
         "status_initial": "Añade nombres y haz clic en 'Seleccionar Nombre'.",
         "language_dropdown_label": "Idioma:",
-        "enter_name_prompt_ui": "Por favor, introduce un nombre para añadir."
+        "enter_name_prompt_ui": "Por favor, introduce un nombre para añadir.",
+        "dice_roller_title": "Lanzador de Dados",
+        "select_game_label": "Selecciona Juego de Mesa:",
+        "roll_dice_button": "Lanzar Dados",
+        "dice_roll_result": "Sacaste: {result} (Dado 1: {d1}, Dado 2: {d2}) para {game}",
+        "go_to_dice_roller": "Ir al Lanzador de Dados",
+        "go_to_name_selector": "Ir al Selector de Nombres",
+        "dnd_screen_title": "Ayudante de Dungeons & Dragons",
+        "go_to_dnd_screen": "Ir al Ayudante de D&D",
+        "dnd_roll_button": "Lanzar {die}",
+        "dnd_roll_result": "Sacaste un {die}: {result}",
+        "dnd_help_button": "Ayuda",
+        "dnd_help_title": "Información de Dados",
+        "d4_description": "D4 (dado de cuatro caras) – Usado para tiradas de daño pequeño, como dagas o conjuros de misiles mágicos.",
+        "d6_description": "D6 (dado de seis caras) – Común para daño de armas, como espadas cortas, y también usado en la creación de personajes.",
+        "d8_description": "D8 (dado de ocho caras) – A menudo usado para armas de daño moderado, como mazas y ciertos conjuros.",
+        "d10_description": "D10 (dado de diez caras) – Usado para tiradas de daño mayor, como ciertas armas marciales y efectos de conjuros.",
+        "d12_description": "D12 (dado de doce caras) – Típicamente usado para daño de armas pesadas, como el hacha grande de un bárbaro.",
+        "d20_description": "D20 (dado de veinte caras) – El dado más importante, usado para tiradas de ataque, pruebas de habilidad, tiros de salvación y para determinar el éxito o fracaso.",
+        "d100_description": "D100 (dado percentil) – Usado para tirar porcentajes, a menudo junto con un D10 para determinar efectos aleatorios o botín."
     },
     "ger": { # German translations
         "select_language_prompt": "Sprache auswählen (z.B. en, es, ger): ",
@@ -72,7 +110,26 @@ translations = {
         "add_name_button": "Namen hinzufügen",
         "status_initial": "Fügen Sie Namen hinzu und klicken Sie auf 'Namen auswählen'.",
         "language_dropdown_label": "Sprache:",
-        "enter_name_prompt_ui": "Bitte geben Sie einen Namen ein, um ihn hinzuzufügen."
+        "enter_name_prompt_ui": "Bitte geben Sie einen Namen ein, um ihn hinzuzufügen.",
+        "dice_roller_title": "Würfelbecher",
+        "select_game_label": "Brettspiel auswählen:",
+        "roll_dice_button": "Würfeln",
+        "dice_roll_result": "Du hast gewürfelt: {result} (Würfel 1: {d1}, Würfel 2: {d2}) für {game}",
+        "go_to_dice_roller": "Zum Würfelbecher",
+        "go_to_name_selector": "Zum Namenswähler",
+        "dnd_screen_title": "Dungeons & Dragons Helfer",
+        "go_to_dnd_screen": "Zum D&D Helfer",
+        "dnd_roll_button": "{die} würfeln",
+        "dnd_roll_result": "Du hast einen {die} gewürfelt: {result}",
+        "dnd_help_button": "Hilfe",
+        "dnd_help_title": "Würfelinformationen",
+        "d4_description": "W4 (vierseitiger Würfel) – Wird für kleine Schadenswürfe verwendet, z. B. für Dolche oder magische Geschosse.",
+        "d6_description": "W6 (sechsseitiger Würfel) – Üblich für Waffenschaden, wie Kurzschwerter, und wird auch bei der Charaktererstellung verwendet.",
+        "d8_description": "W8 (achtseitiger Würfel) – Oft für Waffen mit mittlerem Schaden verwendet, wie Streitkolben und bestimmte Zauber.",
+        "d10_description": "W10 (zehnseitiger Würfel) – Wird für größere Schadenswürfe verwendet, z. B. für bestimmte Kriegswaffen und Zaubereffekte.",
+        "d12_description": "W12 (zwölfseitiger Würfel) – Wird normalerweise für schweren Waffenschaden verwendet, wie die Großaxt eines Barbaren.",
+        "d20_description": "W20 (zwanzigseitiger Würfel) – Der wichtigste Würfel, wird für Angriffswürfe, Fertigkeitsproben, Rettungswürfe und zur Bestimmung von Erfolg oder Misserfolg verwendet.",
+        "d100_description": "W100 (Prozentwürfel) – Wird zum Würfeln von Prozentsätzen verwendet, oft in Verbindung mit einem W10, um zufällige Effekte oder Beute zu bestimmen."
     },
     # --- European Languages ---
     "fr": { # French translations
@@ -95,7 +152,26 @@ translations = {
         "add_name_button": "Ajouter un Nom",
         "status_initial": "Ajoutez des noms et cliquez sur 'Sélectionner un Nom'.",
         "language_dropdown_label": "Langue :",
-        "enter_name_prompt_ui": "Veuillez entrer un nom à ajouter."
+        "enter_name_prompt_ui": "Veuillez entrer un nom à ajouter.",
+        "dice_roller_title": "Lanceur de Dés",
+        "select_game_label": "Sélectionnez un Jeu de Société :",
+        "roll_dice_button": "Lancer les Dés",
+        "dice_roll_result": "Vous avez obtenu : {result} (Dé 1 : {d1}, Dé 2 : {d2}) pour {game}",
+        "go_to_dice_roller": "Aller au Lanceur de Dés",
+        "go_to_name_selector": "Aller au Sélecteur de Noms",
+        "dnd_screen_title": "Assistant Dungeons & Dragons",
+        "go_to_dnd_screen": "Aller à l'Assistant D&D",
+        "dnd_roll_button": "Lancer {die}",
+        "dnd_roll_result": "Vous avez lancé un {die}: {result}",
+        "dnd_help_button": "Aide",
+        "dnd_help_title": "Informations sur les Dés",
+        "d4_description": "D4 (dé à quatre faces) – Utilisé pour les petits jets de dégâts, comme les dagues ou les sorts de projectiles magiques.",
+        "d6_description": "D6 (dé à six faces) – Courant pour les dégâts des armes, comme les épées courtes, et également utilisé lors de la création de personnages.",
+        "d8_description": "D8 (dé à huit faces) – Souvent utilisé pour les armes à dégâts modérés, comme les masses et certains sorts.",
+        "d10_description": "D10 (dé à dix faces) – Utilisé pour les jets de dégâts plus importants, comme certaines armes de guerre et effets de sorts.",
+        "d12_description": "D12 (dé à douze faces) – Généralement utilisé pour les dégâts des armes lourdes, comme la hache d'armes d'un barbare.",
+        "d20_description": "D20 (dé à vingt faces) – Le dé le plus important, utilisé pour les jets d'attaque, les tests de compétence, les jets de sauvegarde et pour déterminer le succès ou l'échec.",
+        "d100_description": "D100 (dé de pourcentage) – Utilisé pour lancer des pourcentages, souvent en conjonction avec un D10 pour déterminer des effets aléatoires ou du butin."
     },
     "it": { # Italian translations
         "select_language_prompt": "Seleziona la lingua (es. en, it): ",
@@ -117,7 +193,26 @@ translations = {
         "add_name_button": "Aggiungi Nome",
         "status_initial": "Aggiungi nomi e clicca 'Seleziona Nome'.",
         "language_dropdown_label": "Lingua:",
-        "enter_name_prompt_ui": "Inserisci un nome da aggiungere."
+        "enter_name_prompt_ui": "Inserisci un nome da aggiungere.",
+        "dice_roller_title": "Lancia Dadi",
+        "select_game_label": "Seleziona Gioco da Tavolo:",
+        "roll_dice_button": "Lancia Dadi",
+        "dice_roll_result": "Hai ottenuto: {result} (Dado 1: {d1}, Dado 2: {d2}) per {game}",
+        "go_to_dice_roller": "Vai al Lancia Dadi",
+        "go_to_name_selector": "Vai al Selettore Nomi",
+        "dnd_screen_title": "Assistente Dungeons & Dragons",
+        "go_to_dnd_screen": "Vai all'Assistente D&D",
+        "dnd_roll_button": "Lancia {die}",
+        "dnd_roll_result": "Hai lanciato un {die}: {result}",
+        "dnd_help_button": "Aiuto",
+        "dnd_help_title": "Informazioni sui Dadi",
+        "d4_description": "D4 (dado a quattro facce) – Usato per piccoli tiri di danno, come pugnali o incantesimi di proiettili magici.",
+        "d6_description": "D6 (dado a sei facce) – Comune per il danno delle armi, come spade corte, e usato anche nella creazione del personaggio.",
+        "d8_description": "D8 (dado a otto facce) – Spesso usato per armi con danno moderato, come mazze e certi incantesimi.",
+        "d10_description": "D10 (dado a dieci facce) – Usato per tiri di danno maggiori, come certe armi da guerra ed effetti di incantesimi.",
+        "d12_description": "D12 (dado a dodici facce) – Tipicamente usato per il danno di armi pesanti, come l'ascia bipenne di un barbaro.",
+        "d20_description": "D20 (dado a venti facce) – Il dado più importante, usato per tiri di attacco, prove di abilità, tiri salvezza e per determinare successo o fallimento.",
+        "d100_description": "D100 (dado percentuale) – Usato per tirare percentuali, spesso in combinazione con un D10 per determinare effetti casuali o bottino."
     },
     "pt": { # Portuguese translations
         "select_language_prompt": "Selecione o idioma (ex: en, pt): ",
@@ -139,7 +234,26 @@ translations = {
         "add_name_button": "Adicionar Nome",
         "status_initial": "Adicione nomes e clique em 'Selecionar Nome'.",
         "language_dropdown_label": "Idioma:",
-        "enter_name_prompt_ui": "Por favor, digite um nome para adicionar."
+        "enter_name_prompt_ui": "Por favor, digite um nome para adicionar.",
+        "dice_roller_title": "Rolador de Dados",
+        "select_game_label": "Selecione o Jogo de Tabuleiro:",
+        "roll_dice_button": "Rolar Dados",
+        "dice_roll_result": "Você rolou: {result} (Dado 1: {d1}, Dado 2: {d2}) para {game}",
+        "go_to_dice_roller": "Ir para o Rolador de Dados",
+        "go_to_name_selector": "Ir para o Seletor de Nomes",
+        "dnd_screen_title": "Ajudante de Dungeons & Dragons",
+        "go_to_dnd_screen": "Ir para o Ajudante de D&D",
+        "dnd_roll_button": "Rolar {die}",
+        "dnd_roll_result": "Você rolou um {die}: {result}",
+        "dnd_help_button": "Ajuda",
+        "dnd_help_title": "Informações sobre Dados",
+        "d4_description": "D4 (dado de quatro faces) – Usado para pequenas rolagens de dano, como adagas ou feitiços de mísseis mágicos.",
+        "d6_description": "D6 (dado de seis faces) – Comum para dano de armas, como espadas curtas, e também usado na criação de personagens.",
+        "d8_description": "D8 (dado de oito faces) – Frequentemente usado para armas de dano moderado, como maças e certos feitiços.",
+        "d10_description": "D10 (dado de dez faces) – Usado para rolagens de dano maiores, como certas armas marciais e efeitos de feitiços.",
+        "d12_description": "D12 (dado de doze faces) – Normalmente usado para dano de armas pesadas, como o machado grande de um bárbaro.",
+        "d20_description": "D20 (dado de vinte faces) – O dado mais importante, usado para rolagens de ataque, testes de habilidade, salvaguardas e para determinar sucesso ou fracasso.",
+        "d100_description": "D100 (dado percentual) – Usado para rolar porcentagens, frequentemente em conjunto com um D10 para determinar efeitos aleatórios ou saque."
     },
     "nl": { # Dutch translations
         "select_language_prompt": "Selecteer taal (bijv. en, nl): ",
@@ -161,7 +275,26 @@ translations = {
         "add_name_button": "Naam Toevoegen",
         "status_initial": "Voeg namen toe en klik op 'Selecteer Naam'.",
         "language_dropdown_label": "Taal:",
-        "enter_name_prompt_ui": "Voer een naam in om toe te voegen."
+        "enter_name_prompt_ui": "Voer een naam in om toe te voegen.",
+        "dice_roller_title": "Dobbelsteenwerper",
+        "select_game_label": "Selecteer Bordspel:",
+        "roll_dice_button": "Dobbelstenen Gooien",
+        "dice_roll_result": "Je gooide: {result} (Dobbelsteen 1: {d1}, Dobbelsteen 2: {d2}) voor {game}",
+        "go_to_dice_roller": "Naar Dobbelsteenwerper",
+        "go_to_name_selector": "Naar Namenkiezer",
+        "dnd_screen_title": "Dungeons & Dragons Hulpje",
+        "go_to_dnd_screen": "Naar D&D Hulpje",
+        "dnd_roll_button": "Rol {die}",
+        "dnd_roll_result": "Je rolde een {die}: {result}",
+        "dnd_help_button": "Help",
+        "dnd_help_title": "Dobbelsteeninformatie",
+        "d4_description": "D4 (vierzijdige dobbelsteen) – Gebruikt voor kleine schadeworpen, zoals dolken of magische projectielspreuken.",
+        "d6_description": "D6 (zeszijdige dobbelsteen) – Gebruikelijk voor wapenschade, zoals korte zwaarden, en ook gebruikt bij het maken van personages.",
+        "d8_description": "D8 (achtzijdige dobbelsteen) – Vaak gebruikt voor wapens met matige schade, zoals strijdknotsen en bepaalde spreuken.",
+        "d10_description": "D10 (tienzijdige dobbelsteen) – Gebruikt voor grotere schadenswürfe, zoals bepaalde oorlogswapens en spreukeffecten.",
+        "d12_description": "D12 (twaalfzijdige dobbelsteen) – Typisch gebruikt voor zware wapenschade, zoals de grote bijl van een barbaar.",
+        "d20_description": "D20 (twintigzijdige dobbelsteen) – De belangrijkste dobbelsteen, gebruikt voor aanvalsworpen, vaardigheidstests, reddingsworpen en om succes of falen te bepalen.",
+        "d100_description": "D100 (procentuele dobbelsteen) – Gebruikt voor het rollen van percentages, vaak in combinatie met een D10 om willekeurige effecten of buit te bepalen."
     },
     "pl": { # Polish translations
         "select_language_prompt": "Wybierz język (np. en, pl): ",
@@ -183,7 +316,26 @@ translations = {
         "add_name_button": "Dodaj Imię",
         "status_initial": "Dodaj imiona i kliknij 'Wybierz Imię'.",
         "language_dropdown_label": "Język:",
-        "enter_name_prompt_ui": "Wpisz imię, aby dodać."
+        "enter_name_prompt_ui": "Wpisz imię, aby dodać.",
+        "dice_roller_title": "Rzut Kośćmi",
+        "select_game_label": "Wybierz Grę Planszową:",
+        "roll_dice_button": "Rzuć Kośćmi",
+        "dice_roll_result": "Wyrzuciłeś: {result} (Kość 1: {d1}, Kość 2: {d2}) dla {game}",
+        "go_to_dice_roller": "Przejdź do Rzutu Kośćmi",
+        "go_to_name_selector": "Przejdź do Selektora Imion",
+        "dnd_screen_title": "Pomocnik Dungeons & Dragons",
+        "go_to_dnd_screen": "Przejdź do Pomocnika D&D",
+        "dnd_roll_button": "Rzuć {die}",
+        "dnd_roll_result": "Wyrzuciłeś {die}: {result}",
+        "dnd_help_button": "Pomoc",
+        "dnd_help_title": "Informacje o Kościach",
+        "d4_description": "K4 (kość czworościenna) – Używana do niewielkich rzutów obrażeń, takich jak sztylety lub zaklęcia magicznych pocisków.",
+        "d6_description": "K6 (kość sześcienna) – Powszechna dla obrażeń broni, takich jak krótkie miecze, a także używana podczas tworzenia postaci.",
+        "d8_description": "K8 (kość ośmiościenna) – Często używana dla broni o umiarkowanych obrażeniach, takich jak buławy i niektóre zaklęcia.",
+        "d10_description": "K10 (kość dziesięciościenna) – Używana do większych rzutów obrażeń, takich jak niektóre bronie wojenne i efekty zaklęć.",
+        "d12_description": "K12 (kość dwunastościenna) – Zazwyczaj używana do obrażeń ciężkiej broni, takiej jak wielki topór barbarzyńcy.",
+        "d20_description": "K20 (kość dwudziestościenna) – Najważniejsza kość, używana do rzutów ataku, testów umiejętności, rzutów obronnych oraz do określania sukcesu lub porażki.",
+        "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów."
     },
     "sv": { # Swedish translations
         "select_language_prompt": "Välj språk (t.ex. en, sv): ",
@@ -205,11 +357,30 @@ translations = {
         "add_name_button": "Lägg till Namn",
         "status_initial": "Lägg till namn och klicka på 'Välj Namn'.",
         "language_dropdown_label": "Språk:",
-        "enter_name_prompt_ui": "Ange ett namn att lägga till."
+        "enter_name_prompt_ui": "Ange ett namn att lägga till.",
+        "dice_roller_title": "Tärningskastare",
+        "select_game_label": "Välj Brädspel:",
+        "roll_dice_button": "Kasta Tärning",
+        "dice_roll_result": "Du slog: {result} (Tärning 1: {d1}, Tärning 2: {d2}) för {game}",
+        "go_to_dice_roller": "Gå till Tärningskastare",
+        "go_to_name_selector": "Gå till Namnväljare",
+        "dnd_screen_title": "Dungeons & Dragons Hjälpreda",
+        "go_to_dnd_screen": "Gå till D&D Hjälpreda",
+        "dnd_roll_button": "Slå {die}",
+        "dnd_roll_result": "Du slog en {die}: {result}",
+        "dnd_help_button": "Hjälp",
+        "dnd_help_title": "Tärningsinformation",
+        "d4_description": "T4 (fyrsidig tärning) – Används för små skadeslag, som dolkar eller trollformler med magiska projektiler.",
+        "d6_description": "T6 (sexsidig tärning) – Vanlig för vapenskada, som korta svärd, och används även vid karaktärsskapande.",
+        "d8_description": "T8 (åttasidig tärning) – Används ofta för vapen med måttlig skada, som stridsklubbor och vissa trollformler.",
+        "d10_description": "T10 (tiosidig tärning) – Används för större skadeslag, som vissa stridsvapen och trollformelseffekter.",
+        "d12_description": "T12 (tolvsidig tärning) – Används vanligtvis för tung vapenskada, som en barbars stridsyxa.",
+        "d20_description": "T20 (tjugosidig tärning) – Den viktigaste tärningen, används för attackslag, färdighetsslag, räddningsslag och för att avgöra framgång eller misslyckande.",
+        "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte."
     },
     "el": { # Greek translations
         "select_language_prompt": "Επιλέξτε γλώσσα (π.χ. en, el): ",
-        "language_not_supported": "Η γλώσσα '{lang}' δεν υποστηρίζεται. Χρήση Αγγλικών.",
+        "language_not_supported": "Η γλώσσα '{lang}' δεν υποστηρίζεται. Χρήση Αγγικών.",
         "enter_name_prompt": "Εισαγάγετε το όνομά σας (ή πληκτρολογήστε '{quit_cmd}' για έξοδο, '{next_cmd}' για επιλογή ονόματος): ",
         "exiting_program": "Έξοδος από το πρόγραμμα.",
         "no_names_to_select": "Δεν υπάρχουν ονόματα προς επιλογή. Προσθέστε πρώτα ονόματα.",
@@ -227,7 +398,26 @@ translations = {
         "add_name_button": "Προσθήκη Ονόματος",
         "status_initial": "Προσθέστε ονόματα και κάντε κλικ στο 'Επιλογή Ονόματος'.",
         "language_dropdown_label": "Γλώσσα:",
-        "enter_name_prompt_ui": "Παρακαλώ εισαγάγετε ένα όνομα για προσθήκη."
+        "enter_name_prompt_ui": "Παρακαλώ εισαγάγετε ένα όνομα για προσθήκη.",
+        "dice_roller_title": "Ρίψη Ζαριών",
+        "select_game_label": "Επιλογή Επιτραπέζιου Παιχνιδιού:",
+        "roll_dice_button": "Ρίψη Ζαριών",
+        "dice_roll_result": "Έριξες: {result} (Ζάρι 1: {d1}, Ζάρι 2: {d2}) για {game}",
+        "go_to_dice_roller": "Μετάβαση στη Ρίψη Ζαριών",
+        "go_to_name_selector": "Μετάβαση στον Επιλογέα Ονομάτων",
+        "dnd_screen_title": "Βοηθός Dungeons & Dragons",
+        "go_to_dnd_screen": "Μετάβαση στον Βοηθό D&D",
+        "dnd_roll_button": "Ρίξε {die}",
+        "dnd_roll_result": "Έριξες ένα {die}: {result}",
+        "dnd_help_button": "Βοήθεια",
+        "dnd_help_title": "Πληροφορίες Ζαριών",
+        "d4_description": "D4 (τετράεδρο ζάρι) – Χρησιμοποιείται για μικρές ζημιές, όπως στιλέτα ή ξόρκια μαγικών βλημάτων.",
+        "d6_description": "D6 (εξάεδρο ζάρι) – Συνηθισμένο για ζημιές όπλων, όπως κοντά σπαθιά, και χρησιμοποιείται επίσης στη δημιουργία χαρακτήρων.",
+        "d8_description": "D8 (οκτάεδρο ζάρι) – Συχνά χρησιμοποιείται για όπλα μέτριας ζημιάς, όπως ρόπαλα και ορισμένα ξόρκια.",
+        "d10_description": "D10 (δεκάεδρο ζάρι) – Χρησιμοποιείται για μεγαλύτερες ζημιές, όπως ορισμένα πολεμικά όπλα και εφέ ξορκιών.",
+        "d12_description": "D12 (δωδεκάεδρο ζάρι) – Συνήθως χρησιμοποιείται για ζημιές βαρέων όπλων, όπως ο μεγάλος πέλεκυς ενός βάρβαρου.",
+        "d20_description": "D20 (εικοσάεδρο ζάρι) – Το πιο σημαντικό ζάρι, χρησιμοποιείται για επιθέσεις, ελέγχους δεξιοτήτων, ρίψεις σωτηρίας και για τον καθορισμό επιτυχίας ή αποτυχίας.",
+        "d100_description": "D100 (εκατοστιαίο ζάρι) – Χρησιμοποιείται για ρίψη ποσοστών, συχνά σε συνδυασμό με ένα D10 για τον καθορισμό τυχαίων εφέ ή λαφύρων."
     },
     "ru": { # Russian translations
         "select_language_prompt": "Выберите язык (например, en, ru): ",
@@ -249,7 +439,26 @@ translations = {
         "add_name_button": "Добавить Имя",
         "status_initial": "Добавьте имена и нажмите 'Выбрать Имя'.",
         "language_dropdown_label": "Язык:",
-        "enter_name_prompt_ui": "Пожалуйста, введите имя для добавления."
+        "enter_name_prompt_ui": "Пожалуйста, введите имя для добавления.",
+        "dice_roller_title": "Бросок кубиков",
+        "select_game_label": "Выберите настольную игру:",
+        "roll_dice_button": "Бросить кубики",
+        "dice_roll_result": "Вы выбросили: {result} (Кубик 1: {d1}, Кубик 2: {d2}) для {game}",
+        "go_to_dice_roller": "К броску кубиков",
+        "go_to_name_selector": "К выбору имени",
+        "dnd_screen_title": "Помощник Dungeons & Dragons",
+        "go_to_dnd_screen": "К Помощнику D&D",
+        "dnd_roll_button": "Бросить {die}",
+        "dnd_roll_result": "Вы бросили {die}: {result}",
+        "dnd_help_button": "Помощь",
+        "dnd_help_title": "Информация о кубиках",
+        "d4_description": "D4 (четырехгранный кубик) – Используется для небольшого урона, например, от кинжалов или заклинаний магической стрелы.",
+        "d6_description": "D6 (шестигранный кубик) – Распространен для урона от оружия, такого как короткие мечи, а также используется при создании персонажа.",
+        "d8_description": "D8 (восьмигранный кубик) – Часто используется для оружия со средним уроном, такого как булавы и определенные заклинания.",
+        "d10_description": "D10 (десятигранный кубик) – Используется для большего урона, например, от определенного боевого оружия и эффектов заклинаний.",
+        "d12_description": "D12 (двенадцатигранный кубик) – Обычно используется для урона от тяжелого оружия, такого как двуручный топор варвара.",
+        "d20_description": "D20 (двадцатигранный кубик) – Самый важный кубик, используется для бросков атаки, проверок навыков, спасбросков и определения успеха или неудачи.",
+        "d100_description": "D100 (процентный кубик) – Используется для броска процентов, часто вместе с D10 для определения случайных эффектов или добычи."
     },
     # --- Asian Languages ---
     "ja": { # Japanese translations
@@ -272,7 +481,26 @@ translations = {
         "add_name_button": "名前を追加",
         "status_initial": "名前を追加して「名前を選択」をクリックしてください。",
         "language_dropdown_label": "言語:",
-        "enter_name_prompt_ui": "追加する名前を入力してください。"
+        "enter_name_prompt_ui": "追加する名前を入力してください。",
+        "dice_roller_title": "サイコロローラー",
+        "select_game_label": "ボードゲームを選択:",
+        "roll_dice_button": "サイコロを振る",
+        "dice_roll_result": "出目: {result} (サイコロ1: {d1}, サイコロ2: {d2}) ゲーム: {game}",
+        "go_to_dice_roller": "サイコロローラーへ",
+        "go_to_name_selector": "名前セレクターへ",
+        "dnd_screen_title": "ダンジョンズ＆ドラゴンズ ヘルパー",
+        "go_to_dnd_screen": "D&Dヘルパーへ",
+        "dnd_roll_button": "{die}を振る",
+        "dnd_roll_result": "{die}を振って{result}が出ました",
+        "dnd_help_button": "ヘルプ",
+        "dnd_help_title": "ダイス情報",
+        "d4_description": "D4 (4面ダイス) – ダガーやマジックミサイル呪文など、小さなダメージロールに使用されます。",
+        "d6_description": "D6 (6面ダイス) – ショートソードなどの武器ダメージに一般的で、キャラクター作成にも使用されます。",
+        "d8_description": "D8 (8面ダイス) – メイスや特定の呪文など、中程度のダメージの武器によく使用されます。",
+        "d10_description": "D10 (10面ダイス) – 特定の武具や呪文効果など、より大きなダメージロールに使用されます。",
+        "d12_description": "D12 (12面ダイス) – バーバリアンのグレートアックスなど、重武器のダメージに通常使用されます。",
+        "d20_description": "D20 (20面ダイス) – 最も重要なダイスで、攻撃ロール、技能チェック、セーヴィングスロー、成功または失敗の判定に使用されます。",
+        "d100_description": "D100 (パーセンタイルダイス) – パーセンテージを振るために使用され、ランダムな効果や戦利品を決定するためにD10と組み合わせて使用されることがよくあります。"
     },
     "ko": { # Korean translations
         "select_language_prompt": "언어를 선택하세요 (예: en, ko): ",
@@ -294,7 +522,26 @@ translations = {
         "add_name_button": "이름 추가",
         "status_initial": "이름을 추가하고 '이름 선택'을 클릭하세요.",
         "language_dropdown_label": "언어:",
-        "enter_name_prompt_ui": "추가할 이름을 입력하세요."
+        "enter_name_prompt_ui": "추가할 이름을 입력하세요.",
+        "dice_roller_title": "주사위 굴리개",
+        "select_game_label": "보드 게임 선택:",
+        "roll_dice_button": "주사위 굴리기",
+        "dice_roll_result": "결과: {result} (주사위 1: {d1}, 주사위 2: {d2}) 게임: {game}",
+        "go_to_dice_roller": "주사위 굴리개로 이동",
+        "go_to_name_selector": "이름 선택기로 이동",
+        "dnd_screen_title": "던전 앤 드래곤 헬퍼",
+        "go_to_dnd_screen": "D&D 헬퍼로 이동",
+        "dnd_roll_button": "{die} 굴리기",
+        "dnd_roll_result": "{die}을(를) 굴려 {result}이(가) 나왔습니다",
+        "dnd_help_button": "도움말",
+        "dnd_help_title": "주사위 정보",
+        "d4_description": "D4 (4면체 주사위) – 단검이나 매직 미사일 주문과 같은 작은 피해 굴림에 사용됩니다.",
+        "d6_description": "D6 (6면체 주사위) – 짧은 검과 같은 무기 피해에 일반적이며 캐릭터 생성에도 사용됩니다.",
+        "d8_description": "D8 (8면체 주사위) – 철퇴 및 특정 주문과 같은 중간 정도의 피해를 주는 무기에 자주 사용됩니다.",
+        "d10_description": "D10 (10면체 주사위) – 특정 군용 무기 및 주문 효과와 같은 더 큰 피해 굴림에 사용됩니다.",
+        "d12_description": "D12 (12면체 주사위) – 일반적으로 야만용사의 대형 도끼와 같은 중화기 피해에 사용됩니다.",
+        "d20_description": "D20 (20면체 주사위) – 가장 중요한 주사위로 공격 굴림, 기술 확인, 내성 굴림, 성공 또는 실패 판별에 사용됩니다.",
+        "d100_description": "D100 (백분위 주사위) – 백분율을 굴리는 데 사용되며 무작위 효과나 전리품을 결정하기 위해 D10과 함께 자주 사용됩니다."
     },
     "hi": { # Hindi translations
         "select_language_prompt": "भाषा चुनें (उदा. en, hi): ",
@@ -316,7 +563,26 @@ translations = {
         "add_name_button": "नाम जोड़ें",
         "status_initial": "नाम जोड़ें और 'नाम चुनें' पर क्लिक करें।",
         "language_dropdown_label": "भाषा:",
-        "enter_name_prompt_ui": "कृपया जोड़ने के लिए एक नाम दर्ज करें।"
+        "enter_name_prompt_ui": "कृपया जोड़ने के लिए एक नाम दर्ज करें।",
+        "dice_roller_title": "पासा रोलर",
+        "select_game_label": "बोर्ड गेम चुनें:",
+        "roll_dice_button": "पासा रोल करें",
+        "dice_roll_result": "आपने रोल किया: {result} (पासा 1: {d1}, पासा 2: {d2}) {game} के लिए",
+        "go_to_dice_roller": "पासा रोलर पर जाएं",
+        "go_to_name_selector": "नाम चयनकर्ता पर जाएं",
+        "dnd_screen_title": "डंगऑन और ड्रेगन हेल्पर",
+        "go_to_dnd_screen": "डी एंड डी हेल्पर पर जाएं",
+        "dnd_roll_button": "{die} रोल करें",
+        "dnd_roll_result": "आपने {die} रोल किया: {result}",
+        "dnd_help_button": "मदद",
+        "dnd_help_title": "पासा जानकारी",
+        "d4_description": "D4 (चार-पक्षीय पासा) – छोटे नुकसान रोल के लिए उपयोग किया जाता है, जैसे कि खंजर या जादू मिसाइल मंत्र।",
+        "d6_description": "D6 (छह-पक्षीय पासा) – हथियार के नुकसान के लिए आम, जैसे छोटी तलवारें, और चरित्र निर्माण में भी उपयोग किया जाता है।",
+        "d8_description": "D8 (आठ-पक्षीय पासा) – अक्सर मध्यम क्षति वाले हथियारों के लिए उपयोग किया जाता है, जैसे गदा और कुछ मंत्र।",
+        "d10_description": "D10 (दस-पक्षीय पासा) – बड़े नुकसान रोल के लिए उपयोग किया जाता है, जैसे कुछ मार्शल हथियार और जादू प्रभाव।",
+        "d12_description": "D12 (बारह-पक्षीय पासा) – आमतौर पर भारी हथियार क्षति के लिए उपयोग किया जाता है, जैसे एक बर्बर का बड़ा कुल्हाड़ा।",
+        "d20_description": "D20 (बीस-पक्षीय पासा) – सबसे महत्वपूर्ण पासा, हमले के रोल, कौशल जांच, बचत थ्रो और सफलता या विफलता का निर्धारण करने के लिए उपयोग किया जाता है।",
+        "d100_description": "D100 (प्रतिशत पासा) – प्रतिशत रोल करने के लिए उपयोग किया जाता है, अक्सर यादृच्छिक प्रभाव या लूट का निर्धारण करने के लिए D10 के साथ संयोजन में।"
     },
     "ar": { # Arabic translations
         "select_language_prompt": "اختر اللغة (مثال: en, ar): ",
@@ -338,7 +604,26 @@ translations = {
         "add_name_button": "أضف اسمًا",
         "status_initial": "أضف أسماء وانقر على 'اختر اسمًا'.",
         "language_dropdown_label": "اللغة:",
-        "enter_name_prompt_ui": "الرجاء إدخال اسم لإضافته."
+        "enter_name_prompt_ui": "الرجاء إدخال اسم لإضافته.",
+        "dice_roller_title": "رامي النرد",
+        "select_game_label": "اختر لعبة لوحية:",
+        "roll_dice_button": "ارم النرد",
+        "dice_roll_result": "لقد رميت: {result} (النرد 1: {d1}, النرد 2: {d2}) للعبة {game}",
+        "go_to_dice_roller": "اذهب إلى رامي النرد",
+        "go_to_name_selector": "اذهب إلى محدد الأسماء",
+        "dnd_screen_title": "مساعد Dungeons & Dragons",
+        "go_to_dnd_screen": "اذهب إلى مساعد D&D",
+        "dnd_roll_button": "ارم {die}",
+        "dnd_roll_result": "لقد رميت {die}: {result}",
+        "dnd_help_button": "مساعدة",
+        "dnd_help_title": "معلومات النرد",
+        "d4_description": "D4 (نرد رباعي الأوجه) – يستخدم لرميات الضرر الصغيرة، مثل الخناجر أو تعويذات الصواريخ السحرية.",
+        "d6_description": "D6 (نرد سداسي الأوجه) – شائع لضرر الأسلحة، مثل السيوف القصيرة، ويستخدم أيضًا في إنشاء الشخصيات.",
+        "d8_description": "D8 (نرد ثماني الأوجه) – غالبًا ما يستخدم لأسلحة الضرر المعتدل، مثل الصولجانات وبعض التعويذات.",
+        "d10_description": "D10 (نرد عشاري الأوجه) – يستخدم لرميات الضرر الأكبر، مثل بعض أسلحة القتال وتأثيرات التعويذات.",
+        "d12_description": "D12 (نرد اثني عشري الأوجه) – يستخدم عادةً لضرر الأسلحة الثقيلة، مثل فأس البربري الكبير.",
+        "d20_description": "D20 (نرد عشروني الأوجه) – أهم نرد، يستخدم لرميات الهجوم، وفحوصات المهارة، ورميات الإنقاذ، وتحديد النجاح أو الفشل.",
+        "d100_description": "D100 (نرد النسبة المئوية) – يستخدم لرمي النسب المئوية، غالبًا بالاقتران مع D10 لتحديد التأثيرات العشوائية أو الغنائم."
     },
     "tr": { # Turkish translations
         "select_language_prompt": "Dil seçin (örn. en, tr): ",
@@ -360,7 +645,26 @@ translations = {
         "add_name_button": "İsim Ekle",
         "status_initial": "İsim ekleyin ve 'İsim Seç'e tıklayın.",
         "language_dropdown_label": "Dil:",
-        "enter_name_prompt_ui": "Lütfen eklenecek bir isim girin."
+        "enter_name_prompt_ui": "Lütfen eklenecek bir isim girin.",
+        "dice_roller_title": "Zar Atıcı",
+        "select_game_label": "Masa Oyunu Seçin:",
+        "roll_dice_button": "Zar At",
+        "dice_roll_result": "Attığınız zar: {result} (Zar 1: {d1}, Zar 2: {d2}) oyun: {game}",
+        "go_to_dice_roller": "Zar Atıcıya Git",
+        "go_to_name_selector": "İsim Seçiciye Git",
+        "dnd_screen_title": "Dungeons & Dragons Yardımcısı",
+        "go_to_dnd_screen": "D&D Yardımcısına Git",
+        "dnd_roll_button": "At {die}",
+        "dnd_roll_result": "Attığınız {die}: {result}",
+        "dnd_help_button": "Yardım",
+        "dnd_help_title": "Zar Bilgisi",
+        "d4_description": "D4 (dört yüzlü zar) – Hançerler veya sihirli füze büyüleri gibi küçük hasar atışları için kullanılır.",
+        "d6_description": "D6 (altı yüzlü zar) – Kısa kılıçlar gibi silah hasarı için yaygındır ve karakter oluşturmada da kullanılır.",
+        "d8_description": "D8 (sekiz yüzlü zar) – Genellikle topuzlar ve belirli büyüler gibi orta derecede hasar atışları için kullanılır.",
+        "d10_description": "D10 (on yüzlü zar) – Belirli dövüş silahları ve büyü etkileri gibi daha büyük hasar atışları için kullanılır.",
+        "d12_description": "D12 (on iki yüzlü zar) – Genellikle bir barbarın baltası gibi ağır silah hasarı için kullanılır.",
+        "d20_description": "D20 (yirmi yüzlü zar) – En önemli zar, saldırı atışları, beceri kontrolleri, kurtulma atışları ve başarı veya başarısızlığı belirlemek için kullanılır.",
+        "d100_description": "D100 (yüzdelik zar) – Yüzdeleri atmak için kullanılır, genellikle rastgele etkileri veya ganimeti belirlemek için bir D10 ile birlikte kullanılır."
     },
     "vi": { # Vietnamese translations
         "select_language_prompt": "Chọn ngôn ngữ (ví dụ: en, vi): ",
@@ -382,7 +686,26 @@ translations = {
         "add_name_button": "Thêm tên",
         "status_initial": "Thêm tên và nhấp vào 'Chọn tên'.",
         "language_dropdown_label": "Ngôn ngữ:",
-        "enter_name_prompt_ui": "Vui lòng nhập tên để thêm."
+        "enter_name_prompt_ui": "Vui lòng nhập tên để thêm.",
+        "dice_roller_title": "Trình lăn xúc xắc",
+        "select_game_label": "Chọn trò chơi board game:",
+        "roll_dice_button": "Lăn xúc xắc",
+        "dice_roll_result": "Bạn đã lăn: {result} (Xúc xắc 1: {d1}, Xúc xắc 2: {d2}) cho {game}",
+        "go_to_dice_roller": "Đến Trình lăn xúc xắc",
+        "go_to_name_selector": "Đến Bộ chọn tên",
+        "dnd_screen_title": "Trợ giúp Dungeons & Dragons",
+        "go_to_dnd_screen": "Đến Trợ giúp D&D",
+        "dnd_roll_button": "Lăn {die}",
+        "dnd_roll_result": "Bạn đã lăn {die}: {result}",
+        "dnd_help_button": "Trợ giúp",
+        "dnd_help_title": "Thông tin Xúc xắc",
+        "d4_description": "D4 (xúc xắc bốn mặt) – Dùng cho các lần tung sát thương nhỏ, chẳng hạn như dao găm hoặc phép thuật tên lửa ma thuật.",
+        "d6_description": "D6 (xúc xắc sáu mặt) – Phổ biến cho sát thương vũ khí, như kiếm ngắn, và cũng được sử dụng trong việc tạo nhân vật.",
+        "d8_description": "D8 (xúc xắc tám mặt) – Thường được sử dụng cho các vũ khí sát thương vừa phải, chẳng hạn như chùy và một số phép thuật nhất định.",
+        "d10_description": "D10 (xúc xắc mười mặt) – Dùng cho các lần tung sát thương lớn hơn, chẳng hạn như một số vũ khí cận chiến và hiệu ứng phép thuật.",
+        "d12_description": "D12 (xúc xắc mười hai mặt) – Thường được sử dụng cho sát thương vũ khí hạng nặng, như rìu lớn của một chiến binh man rợ.",
+        "d20_description": "D20 (xúc xắc hai mươi mặt) – Xúc xắc quan trọng nhất, được sử dụng cho các lần tung tấn công, kiểm tra kỹ năng, tung cứu thua và xác định thành công hay thất bại.",
+        "d100_description": "D100 (xúc xắc phần trăm) – Dùng để tung phần trăm, thường kết hợp với D10 để xác định các hiệu ứng ngẫu nhiên hoặc chiến lợi phẩm."
     },
     "th": { # Thai translations
         "select_language_prompt": "เลือกภาษา (เช่น en, th): ",
@@ -404,7 +727,26 @@ translations = {
         "add_name_button": "เพิ่มชื่อ",
         "status_initial": "เพิ่มชื่อแล้วคลิก 'เลือกชื่อ'",
         "language_dropdown_label": "ภาษา:",
-        "enter_name_prompt_ui": "โปรดป้อนชื่อที่จะเพิ่ม"
+        "enter_name_prompt_ui": "โปรดป้อนชื่อที่จะเพิ่ม",
+        "dice_roller_title": "ลูกเต๋า",
+        "select_game_label": "เลือกเกมกระดาน:",
+        "roll_dice_button": "ทอยลูกเต๋า",
+        "dice_roll_result": "คุณทอยได้: {result} (ลูกเต๋า 1: {d1}, ลูกเต๋า 2: {d2}) สำหรับเกม {game}",
+        "go_to_dice_roller": "ไปที่ลูกเต๋า",
+        "go_to_name_selector": "ไปที่เครื่องมือเลือกชื่อ",
+        "dnd_screen_title": "ตัวช่วย Dungeons & Dragons",
+        "go_to_dnd_screen": "ไปที่ตัวช่วย D&D",
+        "dnd_roll_button": "ทอย {die}",
+        "dnd_roll_result": "คุณทอย {die} ได้: {result}",
+        "dnd_help_button": "ช่วยเหลือ",
+        "dnd_help_title": "ข้อมูลลูกเต๋า",
+        "d4_description": "D4 (ลูกเต๋าสี่หน้า) – ใช้สำหรับการทอยความเสียหายเล็กน้อย เช่น มีดสั้นหรือคาถาจรวดเวทมนตร์",
+        "d6_description": "D6 (ลูกเต๋าหกหน้า) – ใช้ทั่วไปสำหรับความเสียหายของอาวุธ เช่น ดาบสั้น และยังใช้ในการสร้างตัวละครด้วย",
+        "d8_description": "D8 (ลูกเต๋าแปดหน้า) – มักใช้สำหรับอาวุธที่มีความเสียหายปานกลาง เช่น กระบองและคาถาบางอย่าง",
+        "d10_description": "D10 (ลูกเต๋าสิบหน้า) – ใช้สำหรับการทอยความเสียหายที่มากขึ้น เช่น อาวุธยุทโธปกรณ์บางชนิดและผลของคาถา",
+        "d12_description": "D12 (ลูกเต๋าสิบสองหน้า) – โดยทั่วไปจะใช้สำหรับความเสียหายของอาวุธหนัก เช่น ขวานใหญ่ของคนเถื่อน",
+        "d20_description": "D20 (ลูกเต๋ายี่สิบหน้า) – ลูกเต๋าที่สำคัญที่สุด ใช้สำหรับการทอยโจมตี การตรวจสอบทักษะ การทอยป้องกัน และการตัดสินความสำเร็จหรือความล้มเหลว",
+        "d100_description": "D100 (ลูกเต๋าเปอร์เซ็นต์) – ใช้สำหรับการทอยเปอร์เซ็นต์ มักใช้ร่วมกับ D10 เพื่อกำหนดผลแบบสุ่มหรือของที่ปล้นมาได้"
     },
     "he": { # Hebrew translations
         "select_language_prompt": "בחר שפה (לדוגמה: en, he): ",
@@ -426,7 +768,26 @@ translations = {
         "add_name_button": "הוסף שם",
         "status_initial": "הוסף שמות ולחץ על 'בחר שם'.",
         "language_dropdown_label": "שפה:",
-        "enter_name_prompt_ui": "אנא הזן שם להוספה."
+        "enter_name_prompt_ui": "אנא הזן שם להוספה.",
+        "dice_roller_title": "מגלגל קוביות",
+        "select_game_label": "בחר משחק לוח:",
+        "roll_dice_button": "הטל קוביות",
+        "dice_roll_result": "הטלת: {result} (קובייה 1: {d1}, קובייה 2: {d2}) עבור {game}",
+        "go_to_dice_roller": "עבור למגלגל קוביות",
+        "go_to_name_selector": "עבור לבוחר שמות",
+        "dnd_screen_title": "עוזר מבוכים ודרקונים",
+        "go_to_dnd_screen": "עבור לעוזר D&D",
+        "dnd_roll_button": "הטל {die}",
+        "dnd_roll_result": "הטלת {die}: {result}",
+        "dnd_help_button": "עזרה",
+        "dnd_help_title": "מידע על קוביות",
+        "d4_description": "ק4 (קובייה ארבע-פונית) – משמשת לגלגולי נזק קטנים, כגון פגיונות או לחשי טיל קסם.",
+        "d6_description": "ק6 (קובייה שש-פונית) – נפוצה לנזקי נשק, כגון חרבות קצרות, ומשמשת גם ביצירת דמויות.",
+        "d8_description": "ק8 (קובייה שמונה-פונית) – משמשת לעתים קרובות לכלי נשק עם נזק בינוני, כגון אלות ולחשים מסוימים.",
+        "d10_description": "ק10 (קובייה עשר-פונית) – משמשת לגלגולי נזק גדולים יותר, כגון כלי נשק מסוימים ואפקטים של לחשים.",
+        "d12_description": "ק12 (קובייה שתים-עשרה-פונית) – משמשת בדרך כלל לנזקי נשק כבדים, כגון גרזן הקרב של ברברי.",
+        "d20_description": "ק20 (קובייה עשרים-פונית) – הקובייה החשובה ביותר, משמשת לגלגולי התקפה, בדיקות מיומנות, גלגולי הצלה ולקביעת הצלחה או כישלון.",
+        "d100_description": "ק100 (קוביית אחוזים) – משמשת לגלגול אחוזים, לעתים קרובות בשילוב עם ק10 לקביעת אפקטים אקראיים או שלל."
     },
     # --- African Languages ---
     "sw": { # Swahili translations
@@ -449,14 +810,33 @@ translations = {
         "add_name_button": "Ongeza Jina",
         "status_initial": "Ongeza majina na ubofye 'Chagua Jina'.",
         "language_dropdown_label": "Lugha:",
-        "enter_name_prompt_ui": "Tafadhali ingiza jina la kuongeza."
+        "enter_name_prompt_ui": "Tafadhali ingiza jina la kuongeza.",
+        "dice_roller_title": "Kiviringisha Kete",
+        "select_game_label": "Chagua Mchezo wa Bodi:",
+        "roll_dice_button": "Viringisha Kete",
+        "dice_roll_result": "Umeviringisha: {result} (Kete 1: {d1}, Kete 2: {d2}) kwa ajili ya {game}",
+        "go_to_dice_roller": "Nenda kwa Kiviringisha Kete",
+        "go_to_name_selector": "Nenda kwa Kiteua Jina",
+        "dnd_screen_title": "Msaidizi wa Dungeons & Dragons",
+        "go_to_dnd_screen": "Nenda kwa Msaidizi wa D&D",
+        "dnd_roll_button": "Viringisha {die}",
+        "dnd_roll_result": "Umeviringisha {die}: {result}",
+        "dnd_help_button": "Msaada",
+        "dnd_help_title": "Taarifa za Kete",
+        "d4_description": "D4 (kete yenye pande nne) – Hutumika kwa uharibifu mdogo, kama vile visu au miiko ya makombora ya kichawi.",
+        "d6_description": "D6 (kete yenye pande sita) – Ya kawaida kwa uharibifu wa silaha, kama panga fupi, na pia hutumika katika uundaji wa wahusika.",
+        "d8_description": "D8 (kete yenye pande nane) – Mara nyingi hutumika kwa silaha za uharibifu wa wastani, kama vile rungu na miiko fulani.",
+        "d10_description": "D10 (kete yenye pande kumi) – Hutumika kwa uharibifu mkubwa zaidi, kama vile silaha fulani za kivita na athari za miiko.",
+        "d12_description": "D12 (kete yenye pande kumi na mbili) – Kwa kawaida hutumika kwa uharibifu wa silaha nzito, kama shoka kubwa la mshenzi.",
+        "d20_description": "D20 (kete yenye pande ishirini) – Kete muhimu zaidi, hutumika kwa mashambulizi, majaribio ya ujuzi, mioko ya kuokoa, na kuamua mafanikio au kutofaulu.",
+        "d100_description": "D100 (kete ya asilimia) – Hutumika kwa kuviringisha asilimia, mara nyingi pamoja na D10 kuamua athari za nasibu au nyara."
     },
     "ha": { # Hausa translations
         "select_language_prompt": "Zaɓi harshe (misali en, ha): ",
         "language_not_supported": "Ba a goyon bayan harshen '{lang}'. Ana amfani da Turanci.",
         "enter_name_prompt": "Shigar da sunanka (ko rubuta '{quit_cmd}' don fita, '{next_cmd}' don zaɓar suna): ",
         "exiting_program": "Ana fita daga shirin.",
-        "no_names_to_select": "Babu sunaye da za a zaɓa. Da fatan za a ƙara wasu sunaye da farko.",
+        "no_names_to_select": "Babu sunaye da zaɓa. Da fatan za a ƙara wasu sunaye da farko.",
         "name_added_to_list": "An ƙara '{name}' zuwa jerin.",
         "congratulations_winner": "Barka {name}! Kai ne mai nasara!",
         "error_no_winner_provided": "Kuskure: Ba a ba da mai nasara ga aikin mai nasara ba.",
@@ -471,73 +851,67 @@ translations = {
         "add_name_button": "Ƙara Suna",
         "status_initial": "Ƙara sunaye kuma danna 'Zaɓi Suna'.",
         "language_dropdown_label": "Harshe:",
-        "enter_name_prompt_ui": "Da fatan za a shigar da suna don ƙarawa."
+        "enter_name_prompt_ui": "Da fatan za a shigar da suna don ƙarawa.",
+        "dice_roller_title": "Mai Jefa Kuri'a",
+        "select_game_label": "Zaɓi Wasan Allo:",
+        "roll_dice_button": "Jefa Kuri'a",
+        "dice_roll_result": "Ka jefa: {result} (Kuri'a 1: {d1}, Kuri'a 2: {d2}) don {game}",
+        "go_to_dice_roller": "Je zuwa Mai Jefa Kuri'a",
+        "go_to_name_selector": "Je zuwa Mai Zaɓin Suna",
+        "dnd_screen_title": "Mataimakin Dungeons & Dragons",
+        "go_to_dnd_screen": "Je zuwa Mataimakin D&D",
+        "dnd_roll_button": "Jefa {die}",
+        "dnd_roll_result": "Ka jefa {die}: {result}",
+        "dnd_help_button": "Taimako",
+        "dnd_help_title": "Bayanin Kuri'a",
+        "d4_description": "K4 (kość czworościenna) – Używana do niewielkich rzutów obrażeń, takich jak sztylety lub zaklęcia magicznych pocisków.",
+        "d6_description": "K6 (kość sześcienna) – Powszechna dla obrażeń broni, takich jak krótkie miecze, a także używana podczas tworzenia postaci.",
+        "d8_description": "K8 (kość ośmiościenna) – Często używana dla broni o umiarkowanych obrażeniach, takich jak buławy i niektóre zaklęcia.",
+        "d10_description": "K10 (kość dziesięciościenna) – Używana do większych rzutów obrażeń, takich jak niektóre bronie wojenne i efekty zaklęć.",
+        "d12_description": "K12 (kość dwunastościenna) – Zazwyczaj używana do obrażeń ciężkiej broni, takiej jak wielki topór barbarzyńcy.",
+        "d20_description": "K20 (kość dwudziestościenna) – Najważniejsza kość, używana do rzutów ataku, testów umiejętności, rzutów obronnych oraz do określania sukcesu lub porażki.",
+        "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów."
     },
-    "yo": { # Yoruba translations
-        "select_language_prompt": "Yan èdè (àpẹẹrẹ, en, yo): ",
-        "language_not_supported": "Èdè '{lang}' kò sí. A ó lo Gẹ̀ẹ́sì.",
-        "enter_name_prompt": "Tẹ orúkọ rẹ (tàbí tẹ '{quit_cmd}' láti jáde, '{next_cmd}' láti yan orúkọ): ",
-        "exiting_program": "Ó ń jáde kúrò nínú ètò.",
-        "no_names_to_select": "Kò sí orúkọ láti yàn. Jọ̀wọ́, kọ́kọ́ fi àwọn orúkọ kún un.",
-        "name_added_to_list": "A ti fi '{name}' kún àkójọ.",
-        "congratulations_winner": "Oriire {name}! Ìwọ ni olùborí!",
-        "error_no_winner_provided": "Àṣìṣe: A kò pèsè olùborí fún iṣẹ́ olùborí.",
-        "added_to_winners_list": "A ti fi '{name}' kún àkójọ àwọn olùborí.",
-        "game_over_all_selected": "Eré ti parí! A ti yan gbogbo orúkọ. Àwọn olùborí ni: {winners_list}",
-        "names_remaining": "Orúkọ {count} ló ṣẹ́ kù nínú àkójọpọ̀ yíyàn.",
-        "quit_command": "jáde",
-        "next_command": "tókàn",
-        "app_title": "Aṣàyàn Orúkọ",
-        "enter_name_label": "Tẹ Orúkọ Kan:",
-        "select_name_button": "Yan Orúkọ",
-        "add_name_button": "Fi Orúkọ Kún",
-        "status_initial": "Fi àwọn orúkọ kún un kí o sì tẹ 'Yan Orúkọ'.",
-        "language_dropdown_label": "Èdè:",
-        "enter_name_prompt_ui": "Jọ̀wọ́, tẹ orúkọ kan láti fi kún un."
-    },
-    "zu": { # Zulu translations
-        "select_language_prompt": "Khetha ulimi (isb. en, zu): ",
-        "language_not_supported": "Ulimi '{lang}' alusekelwe. Kusetshenziswa isiNgisi.",
-        "enter_name_prompt": "Faka igama lakho (noma thayipha '{quit_cmd}' ukuphuma, '{next_cmd}' ukukhetha igama): ",
-        "exiting_program": "Iphuma ohlelweni.",
-        "no_names_to_select": "Awekho amagama okukhetha kuwo. Sicela ungeze amagama kuqala.",
-        "name_added_to_list": "'{name}' kungezwe ohlwini.",
-        "congratulations_winner": "Siyakuhalalisela {name}! Nguwe owinile!",
-        "error_no_winner_provided": "Iphutha: Akunikezwanga owinile emsebenzini wokuwina.",
-        "added_to_winners_list": "'{name}' kungezwe ohlwini lwabawinile.",
-        "game_over_all_selected": "Umdlalo uphelile! Wonke amagama akhethiwe. Abawinile yilaba: {winners_list}",
-        "names_remaining": "Kusele amagama angu-{count} endaweni yokukhetha.",
-        "quit_command": "phuma",
-        "next_command": "okulandelayo",
-        "app_title": "Isikhethi Samagama",
-        "enter_name_label": "Faka Igama:",
-        "select_name_button": "Khetha Igama",
-        "add_name_button": "Engeza Igama",
-        "status_initial": "Engeza amagama bese uchofoza 'Khetha Igama'.",
-        "language_dropdown_label": "Ulimi:",
-        "enter_name_prompt_ui": "Sicela ufake igama ozolengeza."
-    },
-    "am": { # Amharic translations
-        "select_language_prompt": "ቋንቋ ይምረጡ (ለምሳሌ en, am): ",
-        "language_not_supported": "ቋንቋ '{lang}' አይደገፍም። እንግሊዝኛ ጥቅም ላይ እየዋለ ነው።",
-        "enter_name_prompt": "ስምዎን ያስገቡ (ወይም ለመውጣት '{quit_cmd}' ይተይቡ፣ ስም ለመምረጥ '{next_cmd}' ይተይቡ): ",
-        "exiting_program": "ከፕሮግራሙ በመውጣት ላይ።",
-        "no_names_to_select": "የሚመረጡ ስሞች የሉም። እባክዎ መጀመሪያ አንዳንድ ስሞችን ያክሉ።",
-        "name_added_to_list": "'{name}' ወደ ዝርዝሩ ታክሏል።",
-        "congratulations_winner": "እንኳን ደስ አለዎት {name}! እርስዎ አሸናፊ ነዎት!",
-        "error_no_winner_provided": "ስህተት፡ ለአሸናፊ ተግባር ምንም አሸናፊ አልቀረበም።",
-        "added_to_winners_list": "'{name}' ወደ አሸናፊዎች ዝርዝር ታክሏል።",
-        "game_over_all_selected": "ጨዋታው አልቋል! ሁሉም ስሞች ተመርጠዋል። አሸናፊዎቹ፡ {winners_list}",
-        "names_remaining": "በምርጫ ገንዳ ውስጥ {count} ስሞች ቀርተዋል።",
-        "quit_command": "ውጣ",
-        "next_command": "ቀጣይ",
-        "app_title": "ስም መራጭ",
-        "enter_name_label": "ስም ያስገቡ:",
-        "select_name_button": "ስም ይምረጡ",
-        "add_name_button": "ስም ያክሉ",
-        "status_initial": "ስሞችን ያክሉ እና 'ስም ይምረጡ' የሚለውን ጠቅ ያድርጉ።",
-        "language_dropdown_label": "ቋንቋ:",
-        "enter_name_prompt_ui": "እባክዎ ለማከል ስም ያስገቡ።"
+    "sv": { # Swedish translations
+        "select_language_prompt": "Välj språk (t.ex. en, sv): ",
+        "language_not_supported": "Språk '{lang}' stöds inte. Använder engelska.",
+        "enter_name_prompt": "Ange ditt namn (eller skriv '{quit_cmd}' för att avsluta, '{next_cmd}' för att välja ett namn): ",
+        "exiting_program": "Avslutar programmet.",
+        "no_names_to_select": "Inga namn att välja från. Lägg till namn först.",
+        "name_added_to_list": "'{name}' tillagd i listan.",
+        "congratulations_winner": "Grattis {name}! Du är vinnaren!",
+        "error_no_winner_provided": "Fel: Ingen vinnare angavs till vinnarfunktionen.",
+        "added_to_winners_list": "'{name}' har lagts till i vinnarlistan.",
+        "game_over_all_selected": "Spelet är över! Alla namn har valts. Vinnarna är: {winners_list}",
+        "names_remaining": "Det finns {count} namn kvar i urvalspoolen.",
+        "quit_command": "avsluta",
+        "next_command": "nästa",
+        "app_title": "Namnväljare",
+        "enter_name_label": "Ange ett Namn:",
+        "select_name_button": "Välj Namn",
+        "add_name_button": "Lägg till Namn",
+        "status_initial": "Lägg till namn och klicka på 'Välj Namn'.",
+        "language_dropdown_label": "Språk:",
+        "enter_name_prompt_ui": "Ange ett namn att lägga till.",
+        "dice_roller_title": "Tärningskastare",
+        "select_game_label": "Välj Brädspel:",
+        "roll_dice_button": "Kasta Tärning",
+        "dice_roll_result": "Du slog: {result} (Tärning 1: {d1}, Tärning 2: {d2}) för {game}",
+        "go_to_dice_roller": "Gå till Tärningskastare",
+        "go_to_name_selector": "Gå till Namnväljare",
+        "dnd_screen_title": "Dungeons & Dragons Hjälpreda",
+        "go_to_dnd_screen": "Gå till D&D Hjälpreda",
+        "dnd_roll_button": "Slå {die}",
+        "dnd_roll_result": "Du slog en {die}: {result}",
+        "dnd_help_button": "Hjälp",
+        "dnd_help_title": "Tärningsinformation",
+        "d4_description": "T4 (fyrsidig tärning) – Används för små skadeslag, som dolkar eller trollformler med magiska projektiler.",
+        "d6_description": "T6 (sexsidig tärning) – Vanlig för vapenskada, som korta svärd, och används även vid karaktärsskapande.",
+        "d8_description": "T8 (åttasidig tärning) – Används ofta för vapen med måttlig skada, som stridsklubbor och vissa trollformler.",
+        "d10_description": "T10 (tiosidig tärning) – Används för större skadeslag, som vissa stridsvapen och trollformelseffekter.",
+        "d12_description": "T12 (tolvsidig tärning) – Används vanligtvis för tung vapenskada, som en barbars stridsyxa.",
+        "d20_description": "T20 (tjugosidig tärning) – Den viktigaste tärningen, används för attackslag, färdighetsslag, räddningsslag och för att avgöra framgång eller misslyckande.",
+        "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte."
     },
     "zh-CN": { # Simplified Chinese translations
         "select_language_prompt": "选择语言 (例如: en, es): ",
@@ -560,7 +934,26 @@ translations = {
         "add_name_button": "添加名称",
         "status_initial": "添加名称并点击“选择名称”。",
         "language_dropdown_label": "语言:",
-        "enter_name_prompt_ui": "请输入要添加的名称。"
+        "enter_name_prompt_ui": "请输入要添加的名称。",
+        "dice_roller_title": "掷骰子",
+        "select_game_label": "选择棋盘游戏:",
+        "roll_dice_button": "掷骰子",
+        "dice_roll_result": "您掷出了: {result} (骰子 1: {d1}, 骰子 2: {d2}) 用于 {game}",
+        "go_to_dice_roller": "前往掷骰子",
+        "go_to_name_selector": "前往名称选择器",
+        "dnd_screen_title": "龙与地下城助手",
+        "go_to_dnd_screen": "前往D&D助手",
+        "dnd_roll_button": "掷 {die}",
+        "dnd_roll_result": "您掷出了一个 {die}: {result}",
+        "dnd_help_button": "帮助",
+        "dnd_help_title": "骰子信息",
+        "d4_description": "D4 (四面骰) – 用于小型伤害掷骰，例如匕首或魔法飞弹法术。",
+        "d6_description": "D6 (六面骰) – 常用于武器伤害，例如短剑，也用于角色创建。",
+        "d8_description": "D8 (八面骰) – 常用于中等伤害武器，例如钉头锤和某些法术。",
+        "d10_description": "D10 (十面骰) – 用于较大的伤害掷骰，例如某些军用武器和法术效果。",
+        "d12_description": "D12 (十二面骰) – 通常用于重型武器伤害，例如野蛮人的巨斧。",
+        "d20_description": "D20 (二十面骰) – 最重要的骰子，用于攻击掷骰、技能检定、豁免检定以及确定成功或失败。",
+        "d100_description": "D100 (百分骰) – 用于掷百分比，通常与D10结合使用以确定随机效果或战利品。"
     },
     "zh-TW": { # Traditional Chinese translations
         "select_language_prompt": "選擇語言 (例如: en, es): ",
@@ -583,10 +976,33 @@ translations = {
         "add_name_button": "新增名稱",
         "status_initial": "新增名稱並點擊「選擇名稱」。",
         "language_dropdown_label": "語言:",
-        "enter_name_prompt_ui": "請輸入要新增的名稱。"
+        "enter_name_prompt_ui": "請輸入要新增的名稱。",
+        "dice_roller_title": "擲骰子",
+        "select_game_label": "選擇桌遊:",
+        "roll_dice_button": "擲骰子",
+        "dice_roll_result": "您擲出了: {result} (骰子 1: {d1}, 骰子 2: {d2}) 用於 {game}",
+        "go_to_dice_roller": "前往擲骰子",
+        "go_to_name_selector": "前往名稱選擇器",
+        "dnd_screen_title": "龍與地下城助手",
+        "go_to_dnd_screen": "前往D&D助手",
+        "dnd_roll_button": "擲 {die}",
+        "dnd_roll_result": "您擲出了一個 {die}: {result}",
+        "dnd_help_button": "幫助",
+        "dnd_help_title": "骰子資訊",
+        "d4_description": "D4 (四面骰) – 用於小型傷害擲骰，例如匕首或魔法飛彈法術。",
+        "d6_description": "D6 (六面骰) – 常用於武器傷害，例如短劍，也用於角色創建。",
+        "d8_description": "D8 (八面骰) – 常用於中等傷害武器，例如釘頭錘和某些法術。",
+        "d10_description": "D10 (十面骰) – 用於較大的傷害擲骰，例如某些軍用武器和法術效果。",
+        "d12_description": "D12 (十二面骰) – 通常用於重型武器傷害，例如野蠻人的巨斧。",
+        "d20_description": "D20 (二十面骰) – 最重要的骰子，用於攻擊擲骰、技能檢定、豁免檢定以及確定成功或失敗。",
+        "d100_description": "D100 (百分骰) – 用於擲百分比，通常與D10結合使用以確定隨機效果或戰利品。"
     }
 }
+boardgames=["Settlers of Catan","Ticket to Ride",
 
+"Pandemic","Monopoly","Risk","Scrabble","Clue","Battleship","Blokus","Candy Land","The Game of Life","Dominion"
+
+]
 current_language = "en" 
 
 # Moved get_message function here
@@ -618,7 +1034,70 @@ FONT_TITLE = ("Helvetica", 16, "bold")
 FONT_INPUT = ("Helvetica", 12)
 FONT_DISPLAY = ("Helvetica", 14, "italic")
 
-# ---------- GUI Functions ----------
+# ---------- Dice Roller Functions ----------
+def roll_dice():
+    """Simulates rolling two dice and updates the UI with the result."""
+    d1 = random.randint(1, 6)
+    d2 = random.randint(1, 6)
+    result = d1 + d2
+    selected_game = game_var.get()
+    dice_result_var.set(get_message("dice_roll_result", result=result, d1=d1, d2=d2, game=selected_game))
+
+# ---------- D&D Dice Functions ----------
+def roll_dnd_die(die_type):
+    """Rolls a D&D die and updates the D&D result label."""
+    roll_result = random.randint(1, int(die_type[1:])) # e.g., D20 -> 20
+    dnd_result_var.set(get_message("dnd_roll_result", die=die_type, result=roll_result))
+
+def show_dnd_help():
+    """Displays a pop-up window with D&D dice information."""
+    help_window = tk.Toplevel(root)
+    help_window.title(get_message("dnd_help_title"))
+    help_window.configure(bg=BG_COLOR)
+    help_window.geometry("350x450") # Adjusted size for more content
+
+    help_text_widget = tk.Text(help_window, wrap=tk.WORD, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT_INPUT, relief=tk.FLAT, spacing1=5, spacing2=5, spacing3=5)
+    help_text_widget.pack(padx=10, pady=10, fill="both", expand=True)
+
+    dice_info = [
+        ("D4", get_message("d4_description")),
+        ("D6", get_message("d6_description")),
+        ("D8", get_message("d8_description")),
+        ("D10", get_message("d10_description")),
+        ("D12", get_message("d12_description")),
+        ("D20", get_message("d20_description")),
+        ("D100", get_message("d100_description")),
+    ]
+
+    for die, desc in dice_info:
+        help_text_widget.insert(tk.END, f"{die}:\n", ("bold_underline",))
+        help_text_widget.insert(tk.END, f"{desc}\n\n")
+
+    help_text_widget.tag_configure("bold_underline", font=(FONT_INPUT[0], FONT_INPUT[1], "bold underline"))
+    help_text_widget.config(state=tk.DISABLED) # Make text read-only
+
+    close_button = ttk.Button(help_window, text="Close", command=help_window.destroy)
+    close_button.pack(pady=10)
+
+# ---------- GUI Functions -----------
+def show_name_selector_frame():
+    dice_roller_frame.pack_forget()
+    dnd_frame.pack_forget() # Hide D&D frame
+    name_selector_frame.pack(fill="both", expand=True)
+    update_ui_language() # Refresh button text
+
+def show_dice_roller_frame():
+    name_selector_frame.pack_forget()
+    dnd_frame.pack_forget() # Hide D&D frame
+    dice_roller_frame.pack(fill="both", expand=True)
+    update_ui_language() # Refresh button text
+
+def show_dnd_frame():
+    name_selector_frame.pack_forget()
+    dice_roller_frame.pack_forget()
+    dnd_frame.pack(fill="both", expand=True)
+    update_ui_language()
+
 def add_name_ui():
     """Handles adding a name from the UI input to the names list."""
     name = name_entry.get().strip()
@@ -652,6 +1131,11 @@ def select_name_ui():
 def update_ui_language(lang_code=None):
     """Updates all UI text elements to the selected language."""
     global current_language, root, title_label, select_button, add_name_button, display_var, lang_combo_label
+    global dice_roller_title_label, select_game_label, roll_dice_button
+    global name_selector_to_dice_button, dice_roller_to_name_button
+    global dnd_title_label, name_selector_to_dnd_button, dice_roller_to_dnd_button, dnd_to_name_selector_button, dnd_to_dice_roller_button
+    global dnd_roll_d4_button, dnd_roll_d6_button, dnd_roll_d8_button, dnd_roll_d10_button, dnd_roll_d12_button, dnd_roll_d20_button, dnd_roll_d100_button, dnd_help_button # D&D buttons
+
     if lang_code and lang_code in translations:
         current_language = lang_code
     
@@ -665,6 +1149,42 @@ def update_ui_language(lang_code=None):
     if 'add_name_button' in globals() and add_name_button:
         add_name_button.config(text=get_message("add_name_button"))
     
+    # Update dice roller UI elements
+    if 'dice_roller_title_label' in globals() and dice_roller_title_label:
+        dice_roller_title_label.config(text=get_message("dice_roller_title"))
+    if 'select_game_label' in globals() and select_game_label:
+        select_game_label.config(text=get_message("select_game_label"))
+    if 'roll_dice_button' in globals() and roll_dice_button:
+        roll_dice_button.config(text=get_message("roll_dice_button"))
+
+    # Update D&D screen title
+    if 'dnd_title_label' in globals() and dnd_title_label:
+        dnd_title_label.config(text=get_message("dnd_screen_title"))
+
+    # Update D&D buttons
+    if 'dnd_roll_d4_button' in globals() and dnd_roll_d4_button: dnd_roll_d4_button.config(text=get_message("dnd_roll_button", die="D4"))
+    if 'dnd_roll_d6_button' in globals() and dnd_roll_d6_button: dnd_roll_d6_button.config(text=get_message("dnd_roll_button", die="D6"))
+    if 'dnd_roll_d8_button' in globals() and dnd_roll_d8_button: dnd_roll_d8_button.config(text=get_message("dnd_roll_button", die="D8"))
+    if 'dnd_roll_d10_button' in globals() and dnd_roll_d10_button: dnd_roll_d10_button.config(text=get_message("dnd_roll_button", die="D10"))
+    if 'dnd_roll_d12_button' in globals() and dnd_roll_d12_button: dnd_roll_d12_button.config(text=get_message("dnd_roll_button", die="D12"))
+    if 'dnd_roll_d20_button' in globals() and dnd_roll_d20_button: dnd_roll_d20_button.config(text=get_message("dnd_roll_button", die="D20"))
+    if 'dnd_roll_d100_button' in globals() and dnd_roll_d100_button: dnd_roll_d100_button.config(text=get_message("dnd_roll_button", die="D100"))
+    if 'dnd_help_button' in globals() and dnd_help_button: dnd_help_button.config(text=get_message("dnd_help_button"))
+
+    # Update navigation buttons text
+    if 'name_selector_to_dice_button' in globals() and name_selector_to_dice_button:
+        name_selector_to_dice_button.config(text=get_message("go_to_dice_roller"))
+    if 'dice_roller_to_name_button' in globals() and dice_roller_to_name_button:
+        dice_roller_to_name_button.config(text=get_message("go_to_name_selector"))
+    if 'name_selector_to_dnd_button' in globals() and name_selector_to_dnd_button:
+        name_selector_to_dnd_button.config(text=get_message("go_to_dnd_screen"))
+    if 'dice_roller_to_dnd_button' in globals() and dice_roller_to_dnd_button:
+        dice_roller_to_dnd_button.config(text=get_message("go_to_dnd_screen"))
+    if 'dnd_to_name_selector_button' in globals() and dnd_to_name_selector_button:
+        dnd_to_name_selector_button.config(text=get_message("go_to_name_selector"))
+    if 'dnd_to_dice_roller_button' in globals() and dnd_to_dice_roller_button:
+        dnd_to_dice_roller_button.config(text=get_message("go_to_dice_roller"))
+
     # Update status message based on current game state or set to initial
     if not names and not winners:
         display_var.set(get_message("status_initial"))
@@ -689,10 +1209,18 @@ def on_language_select(event):
 
 # ---------- Main Window ----------
 root = tk.Tk()
-root.geometry("400x350") # Increased height for language dropdown
+root.geometry("400x600") # Increased height for D&D screen elements
+root.configure(bg=BG_COLOR)
+
+# ---------- Frames for different screens ----------
+name_selector_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame')
+dice_roller_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame')
+dnd_frame = ttk.Frame(root, padding="10 10 10 10", style='TFrame') # D&D Frame
+
+style = ttk.Style()
+style.configure('TFrame', background=BG_COLOR)
 
 # ---------- Style Configuration ----------
-style = ttk.Style()
 style.theme_use("default")
 
 style.configure('TLabel',
@@ -713,7 +1241,7 @@ style.map('TButton',
           background=[('active', '#005f99')])
 
 # ---------- Widgets ----------
-# Language Selector
+# --- Language Selector (Common to both frames, placed above) ---
 lang_combo_label = ttk.Label(root) # Text will be set by update_ui_language
 lang_combo_label.pack(pady=(10,0))
 
@@ -723,23 +1251,92 @@ language_dropdown = ttk.Combobox(root, textvariable=language_var, values=languag
 language_dropdown.pack(pady=(0,10))
 language_dropdown.bind("<<ComboboxSelected>>", on_language_select)
 
-title_label = ttk.Label(root, font=FONT_TITLE) # Text will be set by update_ui_language
-title_label.pack(pady=(5, 10)) # Adjusted padding
+# --- Name Selector Frame Widgets ---
+title_label = ttk.Label(name_selector_frame, font=FONT_TITLE) 
+title_label.pack(pady=(5, 10))
 
-name_entry = ttk.Entry(root, width=30)
+name_entry = ttk.Entry(name_selector_frame, width=30)
 name_entry.pack(pady=5)
 
-select_button = ttk.Button(root, command=select_name_ui) # Text will be set by update_ui_language
+select_button = ttk.Button(name_selector_frame, command=select_name_ui) 
 select_button.pack(pady=10)
 
-add_name_button = ttk.Button(root, command=add_name_ui) # Text will be set by update_ui_language
+add_name_button = ttk.Button(name_selector_frame, command=add_name_ui) 
 add_name_button.pack(pady=5)
 
 display_var = tk.StringVar()
-display_label = ttk.Label(root, textvariable=display_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR, wraplength=380)
-display_label.pack(pady=(10, 10)) # Adjusted padding
+display_label = ttk.Label(name_selector_frame, textvariable=display_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR, wraplength=380)
+display_label.pack(pady=(10, 10))
 
-# Initial UI language setup
+name_selector_to_dice_button = ttk.Button(name_selector_frame, command=show_dice_roller_frame)
+name_selector_to_dice_button.pack(pady=(10,0), side=tk.LEFT, expand=True)
+
+name_selector_to_dnd_button = ttk.Button(name_selector_frame, command=show_dnd_frame)
+name_selector_to_dnd_button.pack(pady=(10,0), side=tk.RIGHT, expand=True)
+
+# --- Dice Roller Frame Widgets ---
+dice_roller_title_label = ttk.Label(dice_roller_frame, font=FONT_TITLE) 
+dice_roller_title_label.pack(pady=(10,0))
+
+select_game_label = ttk.Label(dice_roller_frame) 
+select_game_label.pack(pady=(5,0))
+
+game_var = tk.StringVar(value=boardgames[0] if boardgames else "")
+game_dropdown = ttk.Combobox(dice_roller_frame, textvariable=game_var, values=boardgames, state="readonly", width=38)
+game_dropdown.pack(pady=(0,5))
+
+roll_dice_button = ttk.Button(dice_roller_frame, command=roll_dice) 
+roll_dice_button.pack(pady=5)
+
+dice_result_var = tk.StringVar()
+dice_result_label = ttk.Label(dice_roller_frame, textvariable=dice_result_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR, wraplength=380)
+dice_result_label.pack(pady=(5,10))
+
+dice_roller_to_name_button = ttk.Button(dice_roller_frame, command=show_name_selector_frame)
+dice_roller_to_name_button.pack(pady=(10,0), side=tk.LEFT, expand=True)
+
+dice_roller_to_dnd_button = ttk.Button(dice_roller_frame, command=show_dnd_frame)
+dice_roller_to_dnd_button.pack(pady=(10,0), side=tk.RIGHT, expand=True)
+
+# --- Dungeons & Dragons Frame Widgets ---
+dnd_title_label = ttk.Label(dnd_frame, font=FONT_TITLE)
+dnd_title_label.pack(pady=(10,0))
+
+# Frame for D&D dice buttons for better layout
+dnd_dice_buttons_frame = ttk.Frame(dnd_frame, style='TFrame')
+dnd_dice_buttons_frame.pack(pady=(10,5))
+
+# D&D Dice Buttons
+dice_types = ["D4", "D6", "D8", "D10", "D12", "D20", "D100"]
+# Store buttons in a dictionary to update their text later if needed
+dnd_buttons = {}
+for i, die_type in enumerate(dice_types):
+    button = ttk.Button(dnd_dice_buttons_frame, text=get_message("dnd_roll_button", die=die_type), command=lambda dt=die_type: roll_dnd_die(dt))
+    # Arrange in 2 columns
+    button.grid(row=i // 2, column=i % 2, padx=5, pady=2, sticky="ew")
+    globals()[f'dnd_roll_{die_type.lower()}_button'] = button # Make button accessible for language update
+
+# Help Button
+dnd_help_button = ttk.Button(dnd_dice_buttons_frame, text=get_message("dnd_help_button"), command=show_dnd_help)
+dnd_help_button.grid(row=(len(dice_types) +1) // 2 , column=0, columnspan=2, padx=5, pady=5, sticky="ew") # Span across columns
+
+# D&D Result Label
+dnd_result_var = tk.StringVar()
+dnd_result_label = ttk.Label(dnd_frame, textvariable=dnd_result_var, font=FONT_DISPLAY, foreground=PRIMARY_COLOR, wraplength=380)
+dnd_result_label.pack(pady=(5,10))
+
+# Navigation buttons for D&D frame
+dnd_nav_frame = ttk.Frame(dnd_frame, style='TFrame')
+dnd_nav_frame.pack(pady=(10,0), fill='x', expand=True)
+
+dnd_to_name_selector_button = ttk.Button(dnd_nav_frame, command=show_name_selector_frame)
+dnd_to_name_selector_button.pack(side=tk.LEFT, expand=True, padx=5)
+
+dnd_to_dice_roller_button = ttk.Button(dnd_nav_frame, command=show_dice_roller_frame)
+dnd_to_dice_roller_button.pack(side=tk.RIGHT, expand=True, padx=5)
+
+# Initial UI language setup and frame display
+show_name_selector_frame() # Show name selector by default
 update_ui_language(current_language) 
 
 # ---------- Run the App (moved to if __name__ == "__main__") ----------
