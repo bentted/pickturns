@@ -1,152 +1,167 @@
-# Turn Picker / Name Selector Application
+# Turn Picker Application
 
-This Python application provides a fun and easy way to randomly select a name from a list. It can be used for picking turns, choosing winners, or any other scenario where a random selection is needed. The application supports multiple languages and offers both a Command-Line Interface (CLI) and a Graphical User Interface (GUI).
+## Overview
+
+The Turn Picker application is a versatile desktop tool built with Python and Tkinter. It provides a collection of utilities designed to assist with various turn-based activities, tabletop games, and decision-making processes. The application features a user-friendly interface with support for multiple languages.
 
 ## Features
 
-*   **Random Name Selection:** Fairly selects a name from a user-provided list.
-*   **Multiple Entries:** Allows adding multiple names to the selection pool.
-*   **Winner Tracking:** Keeps track of selected names (winners) and can display the list of all winners once all names have been selected.
-*   **Multilingual Support:** 
-    *   The application interface (both CLI and GUI) can be switched to various languages.
-    *   Currently supported languages include: English (en), Spanish (es), German (ger), French (fr), Italian (it), Portuguese (pt), Dutch (nl), Polish (pl), Swedish (sv), Greek (el), Russian (ru), Japanese (ja), Korean (ko), Hindi (hi), Arabic (ar), Turkish (tr), Vietnamese (vi), Thai (th), Hebrew (he), Swahili (sw), Hausa (ha), Yoruba (yo), Zulu (zu), Amharic (am), Simplified Chinese (zh-CN), and Traditional Chinese (zh-TW).
-*   **Dual Interface:**
-    *   **CLI (Command-Line Interface):** For users who prefer text-based interaction.
-    *   **GUI (Graphical User Interface):** A user-friendly visual interface built with Tkinter.
-*   **Persistent Winners List (GUI):** In the GUI, even after all names are picked, the list of winners remains displayed.
-*   **Dynamic UI Updates:** The GUI language can be changed on-the-fly, and all text elements will update immediately.
+*   **Multi-Language Support:** The UI and content can be displayed in multiple languages, including:
+    *   English (en)
+    *   Spanish (es)
+    *   French (fr)
+    *   German (de)
+    *   Japanese (ja)
+    *   Chinese (zh)
+    *   Korean (ko)
+    *   Italian (it)
+    *   Portuguese (pt)
+    *   Russian (ru)
+*   **Name Selector:** Allows users to input a list of names and randomly select one. It also keeps track of previously picked names.
+*   **Dice Roller:** A flexible dice rolling utility that supports:
+    *   Rolling 1 to 10 dice simultaneously.
+    *   Standard dice types: d4, d6, d8, d10, d12, d20, d100.
+    *   Display of individual die results and the total sum.
+*   **D&D Helper:** A dedicated screen for Dungeons & Dragons players, featuring:
+    *   Input fields for character name, class, and level.
+    *   An initiative roller.
+    *   Display area for character details and initiative roll results.
+*   **Card Game Helper:** A new module to assist with card games:
+    *   Dropdown menu to select from a list of popular card games (e.g., Poker, Blackjack, Uno, Bridge, Rummy, Solitaire, Go Fish, War, Crazy Eights, Spades).
+    *   Display area for the rules of the selected card game.
+    *   Card game rules are translatable and can be displayed in the selected application language.
 
-## Prerequisites
+## Requirements
 
 *   Python 3.x
-*   Tkinter (usually included with Python standard library)
+*   Tkinter library (typically included with standard Python installations)
 
 ## How to Run
 
-1.  **Download:** Get the `turnpicker.py` file.
-2.  **Open Terminal/Command Prompt:** Navigate to the directory where you saved the file (`c:\Users\ruess\OneDrive\Desktop\` in this case).
-3.  **Execute the script:**
+1.  Ensure you have Python 3 installed on your system.
+2.  Save the `turnpicker.py` script to a directory on your computer.
+3.  Open a terminal or command prompt.
+4.  Navigate to the directory where you saved the file.
+5.  Execute the script using the command:
     ```bash
     python turnpicker.py
     ```
 
-By default, this will launch the **GUI version** of the application.
+## Application Screens and Usage
 
-### Running the GUI Version
+### Main Window & Language Selection
 
-When you run `python turnpicker.py`, the graphical interface will appear.
+Upon launching the application, the main window appears.
+*   **Language Dropdown:** Located at the top, this dropdown allows you to change the display language of the entire application dynamically.
+*   **Navigation Buttons:** Buttons to switch to the different helper screens:
+    *   "Name Selector"
+    *   "Dice Roller"
+    *   "D&D Helper"
+    *   "Card Game Helper"
 
-*   **Language Selection:**
-    *   Use the dropdown menu at the top to select your preferred language. The UI will update instantly.
-*   **Adding Names:**
-    *   Type a name into the "Enter a Name" (or its translated equivalent) input field.
-    *   Click the "Add Name" button. A confirmation message will appear.
-*   **Selecting a Name/Winner:**
-    *   Click the "Select Name" button.
-    *   A randomly selected name will be displayed as the winner. This name is removed from the selection pool and added to a list of winners.
-*   **Game Over:**
-    *   Once all names have been selected, a "Game is over!" message will be displayed along with an enumerated list of all winners in the order they were picked.
-    *   If you try to select a name when the list is empty (either initially or after all names are picked), an appropriate message will be shown.
+### 1. Name Selector Screen
 
-### Running the CLI Version
+*   **Functionality:** Helps in randomly picking a name from a user-defined list.
+*   **UI Elements:**
+    *   **Name Entry Field:** Input names one by one.
+    *   **Add Name Button:** Adds the entered name to the list.
+    *   **Pick Name Button:** Randomly selects a name from the current list. The selected name is displayed.
+    *   **Clear List Button:** Empties the list of names.
+    *   **Current List Display:** Shows all names currently in the list.
+    *   **Previously Picked Display:** Shows names that have already been picked in the current session.
+    *   **Back Button:** Returns to the main navigation screen.
 
-To run the Command-Line Interface version, you need to modify the `turnpicker.py` script slightly.
+### 2. Dice Roller Screen
 
-1.  Open `turnpicker.py` in a text editor.
-2.  Scroll to the very bottom of the file, to the `if __name__ == "__main__":` block.
-3.  Comment out the line that runs the GUI:
-    ```python
-    # To run GUI version:
-    # root.mainloop() 
-    ```
-4.  Uncomment the lines that run the CLI:
-    ```python
-    # To run CLI version:
-    set_language_cli() 
-    main_cli(names)
-    ```
-5.  Save the file.
-6.  Now, run the script from your terminal:
-    ```bash
-    python turnpicker.py
-    ```
+*   **Functionality:** Simulates rolling various types of polyhedral dice.
+*   **UI Elements:**
+    *   **Number of Dice Dropdown:** Select how many dice to roll (1 to 10).
+    *   **Number of Sides Dropdown:** Select the type of dice (d4, d6, d8, d10, d12, d20, d100).
+    *   **Roll Dice Button:** Executes the dice roll.
+    *   **Results Display Area:** Shows the outcome of each individual die roll and the sum of all rolls.
+    *   **Back Button:** Returns to the main navigation screen.
 
-*   **Language Selection (CLI):**
-    *   The first prompt will be: `Select language (e.g., en, es):`
-    *   Enter the language code (e.g., `es` for Spanish, `fr` for French). If an unsupported code is entered, it will default to English.
-*   **Adding Names (CLI):**
-    *   You'll be prompted to `Enter your name (or type 'quit' to exit, 'next' to select a name):` (message will be in the selected language).
-    *   Type a name and press Enter. A confirmation message will be shown.
-*   **Selecting a Name/Winner (CLI):**
-    *   At the prompt, type `next` (or its translated equivalent for the `next_command`) and press Enter.
-    *   A winner will be randomly selected and announced.
-    *   The application will also show how many names remain.
-*   **Exiting (CLI):**
-    *   At the prompt, type `quit` (or its translated equivalent for the `quit_command`) and press Enter.
-*   **Game Over (CLI):**
-    *   When all names have been selected, a "Game is over!" message will be displayed with the list of winners.
+### 3. D&D Helper Screen
 
-## Code Structure Overview
+*   **Functionality:** Assists Dungeons & Dragons players with character information and initiative rolls.
+*   **UI Elements:**
+    *   **Character Name Entry:** Field to input the character's name.
+    *   **Character Class Entry:** Field to input the character's class.
+    *   **Character Level Entry:** Field to input the character's level.
+    *   **Roll Initiative Button:** Calculates and displays an initiative roll (typically 1d20 + modifiers, though the current version might be a simple d20 roll).
+    *   **Display Area:** Shows the entered character details and the result of the initiative roll.
+    *   **Back Button:** Returns to the main navigation screen.
 
-*   **`translations` Dictionary:** Contains all the text strings for different languages. Each language has a code (e.g., "en", "es") as a key.
-*   **`current_language` Variable:** Stores the currently active language code.
-*   **`get_message(key, **kwargs)`:** Retrieves translated strings for the GUI. It falls back to English if a translation is missing for the current language or if the key itself is not found in English.
-*   **GUI Functions (`add_name_ui`, `select_name_ui`, `update_ui_language`, `on_language_select`):** Manage the logic for the Tkinter graphical interface.
-*   **Tkinter Widgets:** Standard Tkinter elements (labels, buttons, entry fields, combobox) are used to build the GUI. Styling is applied for a more modern look.
-*   **CLI Functions (`get_message_cli`, `set_language_cli`, `main_cli`, `make_selection`, `winner`):** Handle the logic for the command-line interface.
-*   **`names` List:** Stores the list of names entered by the user.
-*   **`winners` List:** Stores the list of names that have been selected.
-*   **`if __name__ == "__main__":` Block:** The entry point of the script. It's configured to run either the GUI or the CLI version (requires manual editing to switch).
+### 4. Card Game Helper Screen
+
+*   **Functionality:** Provides rules for various card games.
+*   **UI Elements:**
+    *   **Screen Title:** "Card Game Helper".
+    *   **Select Card Game Label & Dropdown:** Allows users to choose a card game from a predefined list:
+        *   Poker
+        *   Blackjack
+        *   Uno
+        *   Bridge
+        *   Rummy
+        *   Solitaire
+        *   Go Fish
+        *   War
+        *   Crazy Eights
+        *   Spades
+    *   **Card Game Rules Title Label:** "Rules:".
+    *   **Rules Display Area (Text Widget):** Shows the rules for the selected card game in the currently active application language. If a translation is not available for a specific game in the selected language, it defaults to English.
+    *   **Back Button:** Returns to the main navigation screen.
+
+## Internationalization (i18n)
+
+The application is designed to be easily translatable.
+
+### UI Text Translations
+
+*   All UI text elements (labels, button texts, titles) are stored in a nested dictionary named `translations` within `turnpicker.py`.
+*   The structure is `translations[language_code][key] = "Translated Text"`.
+    *   Example: `translations['es']['app_title'] = "Selector de Turnos"`
+*   To add or modify translations:
+    1.  Identify the language code (e.g., `'fr'` for French).
+    2.  Find the appropriate key for the UI element (e.g., `'name_selector_title'`).
+    3.  Add or update the entry in the `translations` dictionary.
+
+### Card Game Rules Translations
+
+*   Card game rules are stored in a separate nested dictionary named `card_game_rules_translations`.
+*   The structure is `card_game_rules_translations[language_code][game_name] = "Translated Rules Text"`.
+    *   Example: `card_game_rules_translations['fr']['Poker'] = "Règles du Poker..."`
+*   To add or update rule translations:
+    1.  Ensure the `game_name` matches exactly with the names in `card_games_list`.
+    2.  Add the translated rules under the appropriate language code and game name.
+    3.  The application will automatically pick up these translations when the language or game selection changes. If a translation is missing for the current language, it defaults to English rules.
+
+## Code Structure (Brief)
+
+*   **Main Script:** `turnpicker.py` contains all the application logic, UI definitions, and translation data.
+*   **GUI:** Built using the Tkinter library (`tk` and `ttk` modules).
+*   **Core Data Structures for i18n:**
+    *   `translations`: For general UI text.
+    *   `card_game_rules_translations`: For card game rules.
+*   **Functions:**
+    *   `update_ui_language()`: Handles dynamic updating of all display text when the language is changed.
+    *   Separate functions `show_name_selector_frame()`, `show_dice_roller_frame()`, `show_dnd_helper_frame()`, `show_card_game_frame()` manage the display of different screens.
+    *   `show_card_game_rules()`: Updates the rules display in the Card Game Helper based on selection and language.
 
 ## Contributing
 
-Contributions are welcome, especially for adding or improving translations!
+Contributions are welcome! Here are some ways you can help:
 
-### Adding/Improving Translations
+*   **Add More Card Games:**
+    1.  Add the game name to the `card_games_list` in `turnpicker.py`.
+    2.  Add the rules for the new game (in English) to `card_game_rules_translations['en']`.
+*   **Translate Card Game Rules:** Provide translations for existing or new card game rules in the `card_game_rules_translations` dictionary for various languages.
+*   **Translate UI Text:** Add or improve translations in the `translations` dictionary for any of the supported (or new) languages.
+*   **Improve UI/UX:** Suggest or implement improvements to the user interface or user experience.
+*   **Add New Features:** Propose and/or develop new helper tools for the application.
+*   **Report Bugs:** If you find any issues, please report them.
 
-1.  **Open `turnpicker.py`**.
-2.  **Locate the `translations` dictionary** near the top of the file.
-3.  **Find the language code** you want to edit or add. Language codes are typically two-letter ISO 639-1 codes (e.g., `fr` for French, `de` for German). For Chinese, `zh-CN` (Simplified) and `zh-TW` (Traditional) are used.
-4.  **Edit existing translations:** If you see a string that's incorrect or could be improved for a specific language, simply change its value.
-5.  **Adding a new language:**
-    *   If the language is not present, add a new entry to the `translations` dictionary. For example, to add Klingon (`tlh`):
-        ```python
-        "tlh": { # Klingon translations
-            "select_language_prompt": "tlh: Select language (e.g., en, tlh): ",
-            "language_not_supported": "tlh: Language '{lang}' not supported. Using English.",
-            "enter_name_prompt": "tlh: Enter your name (or type '{quit_cmd}' to exit, '{next_cmd}' to select a name): ",
-            "exiting_program": "tlh: Exiting the program.",
-            "no_names_to_select": "tlh: No names to select from. Please add some names first.",
-            "name_added_to_list": "tlh: '{name}' added to the list.",
-            "congratulations_winner": "tlh: Congratulations {name}! You are the winner!",
-            "error_no_winner_provided": "tlh: Error: No winner was provided to the winner function.",
-            "added_to_winners_list": "tlh: '{name}' has been added to the winners list.",
-            "game_over_all_selected": "tlh: Game is over! All names have been selected. The winners are: {winners_list}",
-            "names_remaining": "tlh: There are {count} names remaining in the selection pool.",
-            "quit_command": "tlh: quit",
-            "next_command": "tlh: next",
-            "app_title": "tlh: Name Selector",
-            "enter_name_label": "tlh: Enter a Name:",
-            "select_name_button": "tlh: Select Name",
-            "add_name_button": "tlh: Add Name",
-            "status_initial": "tlh: Add names and click 'Select Name'.",
-            "language_dropdown_label": "tlh: Language:",
-            "enter_name_prompt_ui": "tlh: Please enter a name to add."
-        },
-        ```
-    *   Ensure you translate all the keys present in the English (`"en"`) dictionary entry. Pay attention to placeholders like `{name}`, `{lang}`, `{quit_cmd}`, `{next_cmd}`, `{count}`, and `{winners_list}` – these should be kept in the translated strings as they are replaced dynamically by the program.
-6.  **Test your changes:** Run the application (both GUI and CLI if possible) and select the language you modified to ensure everything appears correctly.
-7.  If you're contributing via a platform like GitHub, submit a pull request with your changes.
+## License
 
-### Other Contributions
-
-Feel free to suggest or implement new features, bug fixes, or code improvements.
-
-## Technology Used
-
-*   **Python:** The core programming language.
-*   **Tkinter:** Python's standard GUI (Graphical User Interface) package, used for the visual interface.
-*   **random module:** Used for the random selection of names.
-
----
+This project is open source. (You may want to add a specific license like MIT, GPL, etc., if you decide to choose one).
 
