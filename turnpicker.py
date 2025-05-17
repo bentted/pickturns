@@ -45,7 +45,9 @@ translations = {
         "d10_description": "D10 (ten-sided die) – Used for larger damage rolls, such as certain martial weapons and spell effects.",
         "d12_description": "D12 (twelve-sided die) – Typically used for heavy weapon damage, like a barbarian’s greataxe.",
         "d20_description": "D20 (twenty-sided die) – The most important die, used for attack rolls, skill checks, saving throws, and determining success or failure.",
-        "d100_description": "D100 (percentile die) – Used for rolling percentages, often in conjunction with a D10 to determine random effects or loot."
+        "d100_description": "D100 (percentile die) – Used for rolling percentages, often in conjunction with a D10 to determine random effects or loot.",
+        "no_more_names_to_select": "No more names to select.",
+        "close_button_text": "Close"
     },
     "es": { #  Spanish translations
         "select_language_prompt": "Selecciona el idioma (ej. en, es): ",
@@ -87,7 +89,9 @@ translations = {
         "d10_description": "D10 (dado de diez caras) – Usado para tiradas de daño mayor, como ciertas armas marciales y efectos de conjuros.",
         "d12_description": "D12 (dado de doce caras) – Típicamente usado para daño de armas pesadas, como el hacha grande de un bárbaro.",
         "d20_description": "D20 (dado de veinte caras) – El dado más importante, usado para tiradas de ataque, pruebas de habilidad, tiros de salvación y para determinar el éxito o fracaso.",
-        "d100_description": "D100 (dado percentil) – Usado para tirar porcentajes, a menudo junto con un D10 para determinar efectos aleatorios o botín."
+        "d100_description": "D100 (dado percentil) – Usado para tirar porcentajes, a menudo junto con un D10 para determinar efectos aleatorios o botín.",
+        "no_more_names_to_select": "No quedan más nombres para seleccionar.",
+        "close_button_text": "Cerrar"
     },
     "ger": { # German translations
         "select_language_prompt": "Sprache auswählen (z.B. en, es, ger): ",
@@ -129,7 +133,9 @@ translations = {
         "d10_description": "W10 (zehnseitiger Würfel) – Wird für größere Schadenswürfe verwendet, z. B. für bestimmte Kriegswaffen und Zaubereffekte.",
         "d12_description": "W12 (zwölfseitiger Würfel) – Wird normalerweise für schweren Waffenschaden verwendet, wie die Großaxt eines Barbaren.",
         "d20_description": "W20 (zwanzigseitiger Würfel) – Der wichtigste Würfel, wird für Angriffswürfe, Fertigkeitsproben, Rettungswürfe und zur Bestimmung von Erfolg oder Misserfolg verwendet.",
-        "d100_description": "W100 (Prozentwürfel) – Wird zum Würfeln von Prozentsätzen verwendet, oft in Verbindung mit einem W10, um zufällige Effekte oder Beute zu bestimmen."
+        "d100_description": "W100 (Prozentwürfel) – Wird zum Würfeln von Prozentsätzen verwendet, oft in Verbindung mit einem W10, um zufällige Effekte oder Beute zu bestimmen.",
+        "no_more_names_to_select": "Keine Namen mehr zur Auswahl.",
+        "close_button_text": "Schließen"
     },
     # --- European Languages ---
     "fr": { # French translations
@@ -171,7 +177,9 @@ translations = {
         "d10_description": "D10 (dé à dix faces) – Utilisé pour les jets de dégâts plus importants, comme certaines armes de guerre et effets de sorts.",
         "d12_description": "D12 (dé à douze faces) – Généralement utilisé pour les dégâts des armes lourdes, comme la hache d'armes d'un barbare.",
         "d20_description": "D20 (dé à vingt faces) – Le dé le plus important, utilisé pour les jets d'attaque, les tests de compétence, les jets de sauvegarde et pour déterminer le succès ou l'échec.",
-        "d100_description": "D100 (dé de pourcentage) – Utilisé pour lancer des pourcentages, souvent en conjonction avec un D10 pour déterminer des effets aléatoires ou du butin."
+        "d100_description": "D100 (dé de pourcentage) – Utilisé pour lancer des pourcentages, souvent en conjonction avec un D10 pour déterminer des effets aléatoires ou du butin.",
+        "no_more_names_to_select": "Plus de noms à sélectionner.",
+        "close_button_text": "Fermer"
     },
     "it": { # Italian translations
         "select_language_prompt": "Seleziona la lingua (es. en, it): ",
@@ -180,7 +188,7 @@ translations = {
         "exiting_program": "Uscita dal programma.",
         "no_names_to_select": "Nessun nome da selezionare. Aggiungi prima dei nomi.",
         "name_added_to_list": "'{name}' aggiunto alla lista.",
-        "congratulations_winner": "Congratulazioni {name}! Sei il vincitore!",
+        "congratulazioni_winner": "Congratulazioni {name}! Sei il vincitore!",
         "error_no_winner_provided": "Errore: Nessun vincitore fornito alla funzione vincitore.",
         "added_to_winners_list": "'{name}' è stato aggiunto alla lista dei vincitori.",
         "game_over_all_selected": "Gioco finito! Tutti i nomi sono stati selezionati. I vincitori sono: {winners_list}",
@@ -212,7 +220,9 @@ translations = {
         "d10_description": "D10 (dado a dieci facce) – Usato per tiri di danno maggiori, come certe armi da guerra ed effetti di incantesimi.",
         "d12_description": "D12 (dado a dodici facce) – Tipicamente usato per il danno di armi pesanti, come l'ascia bipenne di un barbaro.",
         "d20_description": "D20 (dado a venti facce) – Il dado più importante, usato per tiri di attacco, prove di abilità, tiri salvezza e per determinare successo o fallimento.",
-        "d100_description": "D100 (dado percentuale) – Usato per tirare percentuali, spesso in combinazione con un D10 per determinare effetti casuali o bottino."
+        "d100_description": "D100 (dado percentuale) – Usato per tirare percentuali, spesso in combinazione con un D10 per determinare effetti casuali o bottino.",
+        "no_more_names_to_select": "Non ci sono più nomi da selezionare.",
+        "close_button_text": "Chiudi"
     },
     "pt": { # Portuguese translations
         "select_language_prompt": "Selecione o idioma (ex: en, pt): ",
@@ -253,7 +263,9 @@ translations = {
         "d10_description": "D10 (dado de dez faces) – Usado para rolagens de dano maiores, como certas armas marciais e efeitos de feitiços.",
         "d12_description": "D12 (dado de doze faces) – Normalmente usado para dano de armas pesadas, como o machado grande de um bárbaro.",
         "d20_description": "D20 (dado de vinte faces) – O dado mais importante, usado para rolagens de ataque, testes de habilidade, salvaguardas e para determinar sucesso ou fracasso.",
-        "d100_description": "D100 (dado percentual) – Usado para rolar porcentagens, frequentemente em conjunto com um D10 para determinar efeitos aleatórios ou saque."
+        "d100_description": "D100 (dado percentual) – Usado para rolar porcentagens, frequentemente em conjunto com um D10 para determinar efeitos aleatórios ou saque.",
+        "no_more_names_to_select": "Não há mais nomes para selecionar.",
+        "close_button_text": "Fechar"
     },
     "nl": { # Dutch translations
         "select_language_prompt": "Selecteer taal (bijv. en, nl): ",
@@ -294,7 +306,9 @@ translations = {
         "d10_description": "D10 (tienzijdige dobbelsteen) – Gebruikt voor grotere schadenswürfe, zoals bepaalde oorlogswapens en spreukeffecten.",
         "d12_description": "D12 (twaalfzijdige dobbelsteen) – Typisch gebruikt voor zware wapenschade, zoals de grote bijl van een barbaar.",
         "d20_description": "D20 (twintigzijdige dobbelsteen) – De belangrijkste dobbelsteen, gebruikt voor aanvalsworpen, vaardigheidstests, reddingsworpen en om succes of falen te bepalen.",
-        "d100_description": "D100 (procentuele dobbelsteen) – Gebruikt voor het rollen van percentages, vaak in combinatie met een D10 om willekeurige effecten of buit te bepalen."
+        "d100_description": "D100 (procentuele dobbelsteen) – Gebruikt voor het rollen van percentages, vaak in combinatie met een D10 om willekeurige effecten of buit te bepalen.",
+        "no_more_names_to_select": "Geen namen meer om te selecteren.",
+        "close_button_text": "Sluiten"
     },
     "pl": { # Polish translations
         "select_language_prompt": "Wybierz język (np. en, pl): ",
@@ -335,7 +349,9 @@ translations = {
         "d10_description": "K10 (kość dziesięciościenna) – Używana do większych rzutów obrażeń, takich jak niektóre bronie wojenne i efekty zaklęć.",
         "d12_description": "K12 (kość dwunastościenna) – Zazwyczaj używana do obrażeń ciężkiej broni, takiej jak wielki topór barbarzyńcy.",
         "d20_description": "K20 (kość dwudziestościenna) – Najważniejsza kość, używana do rzutów ataku, testów umiejętności, rzutów obronnych oraz do określania sukcesu lub porażki.",
-        "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów."
+        "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów.",
+        "no_more_names_to_select": "Nie ma więcej nazw do wyboru.",
+        "close_button_text": "Zamknij"
     },
     "sv": { # Swedish translations
         "select_language_prompt": "Välj språk (t.ex. en, sv): ",
@@ -376,7 +392,9 @@ translations = {
         "d10_description": "T10 (tiosidig tärning) – Används för större skadeslag, som vissa stridsvapen och trollformelseffekter.",
         "d12_description": "T12 (tolvsidig tärning) – Används vanligtvis för tung vapenskada, som en barbars stridsyxa.",
         "d20_description": "T20 (tjugosidig tärning) – Den viktigaste tärningen, används för attackslag, färdighetsslag, räddningsslag och för att avgöra framgång eller misslyckande.",
-        "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte."
+        "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte.",
+        "no_more_names_to_select": "Inga fler namn att välja.",
+        "close_button_text": "Stäng"
     },
     "el": { # Greek translations
         "select_language_prompt": "Επιλέξτε γλώσσα (π.χ. en, el): ",
@@ -417,7 +435,9 @@ translations = {
         "d10_description": "D10 (δεκάεδρο ζάρι) – Χρησιμοποιείται για μεγαλύτερες ζημιές, όπως ορισμένα πολεμικά όπλα και εφέ ξορκιών.",
         "d12_description": "D12 (δωδεκάεδρο ζάρι) – Συνήθως χρησιμοποιείται για ζημιές βαρέων όπλων, όπως ο μεγάλος πέλεκυς ενός βάρβαρου.",
         "d20_description": "D20 (εικοσάεδρο ζάρι) – Το πιο σημαντικό ζάρι, χρησιμοποιείται για επιθέσεις, ελέγχους δεξιοτήτων, ρίψεις σωτηρίας και για τον καθορισμό επιτυχίας ή αποτυχίας.",
-        "d100_description": "D100 (εκατοστιαίο ζάρι) – Χρησιμοποιείται για ρίψη ποσοστών, συχνά σε συνδυασμό με ένα D10 για τον καθορισμό τυχαίων εφέ ή λαφύρων."
+        "d100_description": "D100 (εκατοστιαίο ζάρι) – Χρησιμοποιείται για ρίψη ποσοστών, συχνά σε συνδυασμό με ένα D10 για τον καθορισμό τυχαίων εφέ ή λαφύρων.",
+        "no_more_names_to_select": "Δεν υπάρχουν άλλα ονόματα για επιλογή.",
+        "close_button_text": "Κλείσιμο"
     },
     "ru": { # Russian translations
         "select_language_prompt": "Выберите язык (например, en, ru): ",
@@ -458,7 +478,9 @@ translations = {
         "d10_description": "D10 (десятигранный кубик) – Используется для большего урона, например, от определенного боевого оружия и эффектов заклинаний.",
         "d12_description": "D12 (двенадцатигранный кубик) – Обычно используется для урона от тяжелого оружия, такого как двуручный топор варвара.",
         "d20_description": "D20 (двадцатигранный кубик) – Самый важный кубик, используется для бросков атаки, проверок навыков, спасбросков и определения успеха или неудачи.",
-        "d100_description": "D100 (процентный кубик) – Используется для броска процентов, часто вместе с D10 для определения случайных эффектов или добычи."
+        "d100_description": "D100 (процентный кубик) – Используется для броска процентов, часто вместе с D10 для определения случайных эффектов или добычи.",
+        "no_more_names_to_select": "Больше нет имен для выбора.",
+        "close_button_text": "Закрыть"
     },
     # --- Asian Languages ---
     "ja": { # Japanese translations
@@ -500,7 +522,9 @@ translations = {
         "d10_description": "D10 (10面ダイス) – 特定の武具や呪文効果など、より大きなダメージロールに使用されます。",
         "d12_description": "D12 (12面ダイス) – バーバリアンのグレートアックスなど、重武器のダメージに通常使用されます。",
         "d20_description": "D20 (20面ダイス) – 最も重要なダイスで、攻撃ロール、技能チェック、セーヴィングスロー、成功または失敗の判定に使用されます。",
-        "d100_description": "D100 (パーセンタイルダイス) – パーセンテージを振るために使用され、ランダムな効果や戦利品を決定するためにD10と組み合わせて使用されることがよくあります。"
+        "d100_description": "D100 (パーセンタイルダイス) – パーセンテージを振るために使用され、ランダムな効果や戦利品を決定するためにD10と組み合わせて使用されることがよくあります。",
+        "no_more_names_to_select": "選択する名前はもうありません。",
+        "close_button_text": "閉じる"
     },
     "ko": { # Korean translations
         "select_language_prompt": "언어를 선택하세요 (예: en, ko): ",
@@ -541,7 +565,9 @@ translations = {
         "d10_description": "D10 (10면체 주사위) – 특정 군용 무기 및 주문 효과와 같은 더 큰 피해 굴림에 사용됩니다.",
         "d12_description": "D12 (12면체 주사위) – 일반적으로 야만용사의 대형 도끼와 같은 중화기 피해에 사용됩니다.",
         "d20_description": "D20 (20면체 주사위) – 가장 중요한 주사위로 공격 굴림, 기술 확인, 내성 굴림, 성공 또는 실패 판별에 사용됩니다.",
-        "d100_description": "D100 (백분위 주사위) – 백분율을 굴리는 데 사용되며 무작위 효과나 전리품을 결정하기 위해 D10과 함께 자주 사용됩니다."
+        "d100_description": "D100 (백분위 주사위) – 백분율을 굴리는 데 사용되며 무작위 효과나 전리품을 결정하기 위해 D10과 함께 자주 사용됩니다.",
+        "no_more_names_to_select": "더 이상 선택할 이름이 없습니다.",
+        "close_button_text": "닫기"
     },
     "hi": { # Hindi translations
         "select_language_prompt": "भाषा चुनें (उदा. en, hi): ",
@@ -572,7 +598,7 @@ translations = {
         "go_to_name_selector": "नाम चयनकर्ता पर जाएं",
         "dnd_screen_title": "डंगऑन और ड्रेगन हेल्पर",
         "go_to_dnd_screen": "डी एंड डी हेल्पर पर जाएं",
-        "dnd_roll_button": "{die} रोल करें",
+        "dnd_roll_button": "रोल करें {die}",
         "dnd_roll_result": "आपने {die} रोल किया: {result}",
         "dnd_help_button": "मदद",
         "dnd_help_title": "पासा जानकारी",
@@ -582,7 +608,9 @@ translations = {
         "d10_description": "D10 (दस-पक्षीय पासा) – बड़े नुकसान रोल के लिए उपयोग किया जाता है, जैसे कुछ मार्शल हथियार और जादू प्रभाव।",
         "d12_description": "D12 (बारह-पक्षीय पासा) – आमतौर पर भारी हथियार क्षति के लिए उपयोग किया जाता है, जैसे एक बर्बर का बड़ा कुल्हाड़ा।",
         "d20_description": "D20 (बीस-पक्षीय पासा) – सबसे महत्वपूर्ण पासा, हमले के रोल, कौशल जांच, बचत थ्रो और सफलता या विफलता का निर्धारण करने के लिए उपयोग किया जाता है।",
-        "d100_description": "D100 (प्रतिशत पासा) – प्रतिशत रोल करने के लिए उपयोग किया जाता है, अक्सर यादृच्छिक प्रभाव या लूट का निर्धारण करने के लिए D10 के साथ संयोजन में।"
+        "d100_description": "D100 (प्रतिशत पासा) – प्रतिशत रोल करने के लिए उपयोग किया जाता है, अक्सर यादृच्छिक प्रभाव या लूट का निर्धारण करने के लिए D10 के साथ संयोजन में।",
+        "no_more_names_to_select": "चुनने के लिए और नाम नहीं हैं।",
+        "close_button_text": "बंद करें"
     },
     "ar": { # Arabic translations
         "select_language_prompt": "اختر اللغة (مثال: en, ar): ",
@@ -621,9 +649,11 @@ translations = {
         "d6_description": "D6 (نرد سداسي الأوجه) – شائع لضرر الأسلحة، مثل السيوف القصيرة، ويستخدم أيضًا في إنشاء الشخصيات.",
         "d8_description": "D8 (نرد ثماني الأوجه) – غالبًا ما يستخدم لأسلحة الضرر المعتدل، مثل الصولجانات وبعض التعويذات.",
         "d10_description": "D10 (نرد عشاري الأوجه) – يستخدم لرميات الضرر الأكبر، مثل بعض أسلحة القتال وتأثيرات التعويذات.",
-        "d12_description": "D12 (نرد اثني عشري الأوجه) – يستخدم عادةً لضرر الأسلحة الثقيلة، مثل فأس البربري الكبير.",
+        "d12_description": "D12 (نرد اثني عشر الأوجه) – يستخدم عادةً لضرر الأسلحة الثقيلة، مثل فأس البربري الكبير.",
         "d20_description": "D20 (نرد عشروني الأوجه) – أهم نرد، يستخدم لرميات الهجوم، وفحوصات المهارة، ورميات الإنقاذ، وتحديد النجاح أو الفشل.",
-        "d100_description": "D100 (نرد النسبة المئوية) – يستخدم لرمي النسب المئوية، غالبًا بالاقتران مع D10 لتحديد التأثيرات العشوائية أو الغنائم."
+        "d100_description": "D100 (نرد النسبة المئوية) – يستخدم لرمي النسب المئوية، غالبًا بالاقتران مع D10 لتحديد التأثيرات العشوائية أو الغنائم.",
+        "no_more_names_to_select": "لا توجد أسماء أخرى للاختيار.",
+        "close_button_text": "إغلاق"
     },
     "tr": { # Turkish translations
         "select_language_prompt": "Dil seçin (örn. en, tr): ",
@@ -664,7 +694,9 @@ translations = {
         "d10_description": "D10 (on yüzlü zar) – Belirli dövüş silahları ve büyü etkileri gibi daha büyük hasar atışları için kullanılır.",
         "d12_description": "D12 (on iki yüzlü zar) – Genellikle bir barbarın baltası gibi ağır silah hasarı için kullanılır.",
         "d20_description": "D20 (yirmi yüzlü zar) – En önemli zar, saldırı atışları, beceri kontrolleri, kurtulma atışları ve başarı veya başarısızlığı belirlemek için kullanılır.",
-        "d100_description": "D100 (yüzdelik zar) – Yüzdeleri atmak için kullanılır, genellikle rastgele etkileri veya ganimeti belirlemek için bir D10 ile birlikte kullanılır."
+        "d100_description": "D100 (yüzdelik zar) – Yüzdeleri atmak için kullanılır, genellikle rastgele etkileri veya ganimeti belirlemek için bir D10 ile birlikte kullanılır.",
+        "no_more_names_to_select": "Seçilecek başka isim kalmadı.",
+        "close_button_text": "Kapat"
     },
     "vi": { # Vietnamese translations
         "select_language_prompt": "Chọn ngôn ngữ (ví dụ: en, vi): ",
@@ -705,7 +737,9 @@ translations = {
         "d10_description": "D10 (xúc xắc mười mặt) – Dùng cho các lần tung sát thương lớn hơn, chẳng hạn như một số vũ khí cận chiến và hiệu ứng phép thuật.",
         "d12_description": "D12 (xúc xắc mười hai mặt) – Thường được sử dụng cho sát thương vũ khí hạng nặng, như rìu lớn của một chiến binh man rợ.",
         "d20_description": "D20 (xúc xắc hai mươi mặt) – Xúc xắc quan trọng nhất, được sử dụng cho các lần tung tấn công, kiểm tra kỹ năng, tung cứu thua và xác định thành công hay thất bại.",
-        "d100_description": "D100 (xúc xắc phần trăm) – Dùng để tung phần trăm, thường kết hợp với D10 để xác định các hiệu ứng ngẫu nhiên hoặc chiến lợi phẩm."
+        "d100_description": "D100 (xúc xắc phần trăm) – Dùng để tung phần trăm, thường kết hợp với D10 để xác định các hiệu ứng ngẫu nhiên hoặc chiến lợi phẩm.",
+        "no_more_names_to_select": "Không còn tên nào để chọn.",
+        "close_button_text": "Đóng"
     },
     "th": { # Thai translations
         "select_language_prompt": "เลือกภาษา (เช่น en, th): ",
@@ -746,7 +780,9 @@ translations = {
         "d10_description": "D10 (ลูกเต๋าสิบหน้า) – ใช้สำหรับการทอยความเสียหายที่มากขึ้น เช่น อาวุธยุทโธปกรณ์บางชนิดและผลของคาถา",
         "d12_description": "D12 (ลูกเต๋าสิบสองหน้า) – โดยทั่วไปจะใช้สำหรับความเสียหายของอาวุธหนัก เช่น ขวานใหญ่ของคนเถื่อน",
         "d20_description": "D20 (ลูกเต๋ายี่สิบหน้า) – ลูกเต๋าที่สำคัญที่สุด ใช้สำหรับการทอยโจมตี การตรวจสอบทักษะ การทอยป้องกัน และการตัดสินความสำเร็จหรือความล้มเหลว",
-        "d100_description": "D100 (ลูกเต๋าเปอร์เซ็นต์) – ใช้สำหรับการทอยเปอร์เซ็นต์ มักใช้ร่วมกับ D10 เพื่อกำหนดผลแบบสุ่มหรือของที่ปล้นมาได้"
+        "d100_description": "D100 (ลูกเต๋าเปอร์เซ็นต์) – ใช้สำหรับการทอยเปอร์เซ็นต์ มักใช้ร่วมกับ D10 เพื่อกำหนดผลแบบสุ่มหรือของที่ปล้นมาได้",
+        "no_more_names_to_select": "ไม่มีชื่อให้เลือกอีกแล้ว",
+        "close_button_text": "ปิด"
     },
     "he": { # Hebrew translations
         "select_language_prompt": "בחר שפה (לדוגמה: en, he): ",
@@ -787,7 +823,9 @@ translations = {
         "d10_description": "ק10 (קובייה עשר-פונית) – משמשת לגלגולי נזק גדולים יותר, כגון כלי נשק מסוימים ואפקטים של לחשים.",
         "d12_description": "ק12 (קובייה שתים-עשרה-פונית) – משמשת בדרך כלל לנזקי נשק כבדים, כגון גרזן הקרב של ברברי.",
         "d20_description": "ק20 (קובייה עשרים-פונית) – הקובייה החשובה ביותר, משמשת לגלגולי התקפה, בדיקות מיומנות, גלגולי הצלה ולקביעת הצלחה או כישלון.",
-        "d100_description": "ק100 (קוביית אחוזים) – משמשת לגלגול אחוזים, לעתים קרובות בשילוב עם ק10 לקביעת אפקטים אקראיים או שלל."
+        "d100_description": "ק100 (קוביית אחוזים) – משמשת לגלגול אחוזים, לעתים קרובות בשילוב עם ק10 לקביעת אפקטים אקראיים או שלל.",
+        "no_more_names_to_select": "לא נותרו עוד שמות לבחירה.",
+        "close_button_text": "סגור"
     },
     # --- African Languages ---
     "sw": { # Swahili translations
@@ -829,7 +867,9 @@ translations = {
         "d10_description": "D10 (kete yenye pande kumi) – Hutumika kwa uharibifu mkubwa zaidi, kama vile silaha fulani za kivita na athari za miiko.",
         "d12_description": "D12 (kete yenye pande kumi na mbili) – Kwa kawaida hutumika kwa uharibifu wa silaha nzito, kama shoka kubwa la mshenzi.",
         "d20_description": "D20 (kete yenye pande ishirini) – Kete muhimu zaidi, hutumika kwa mashambulizi, majaribio ya ujuzi, mioko ya kuokoa, na kuamua mafanikio au kutofaulu.",
-        "d100_description": "D100 (kete ya asilimia) – Hutumika kwa kuviringisha asilimia, mara nyingi pamoja na D10 kuamua athari za nasibu au nyara."
+        "d100_description": "D100 (kete ya asilimia) – Hutumika kwa kuviringisha asilimia, mara nyingi pamoja na D10 kuamua athari za nasibu au nyara.",
+        "no_more_names_to_select": "Hakuna majina zaidi ya kuchagua.",
+        "close_button_text": "Funga"
     },
     "ha": { # Hausa translations
         "select_language_prompt": "Zaɓi harshe (misali en, ha): ",
@@ -870,7 +910,9 @@ translations = {
         "d10_description": "K10 (kość dziesięciościenna) – Używana do większych rzutów obrażeń, takich jak niektóre bronie wojenne i efekty zaklęć.",
         "d12_description": "K12 (kość dwunastościenna) – Zazwyczaj używana do obrażeń ciężkiej broni, takiej jak wielki topór barbarzyńcy.",
         "d20_description": "K20 (kość dwudziestościenna) – Najważniejsza kość, używana do rzutów ataku, testów umiejętności, rzutów obronnych oraz do określania sukcesu lub porażki.",
-        "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów."
+        "d100_description": "K100 (kość procentowa) – Używana do rzucania procentów, często w połączeniu z K10 do określania losowych efektów lub łupów.",
+        "no_more_names_to_select": "Babu sauran sunaye da za a zaɓa.",
+        "close_button_text": "Rufe"
     },
     "sv": { # Swedish translations
         "select_language_prompt": "Välj språk (t.ex. en, sv): ",
@@ -911,7 +953,9 @@ translations = {
         "d10_description": "T10 (tiosidig tärning) – Används för större skadeslag, som vissa stridsvapen och trollformelseffekter.",
         "d12_description": "T12 (tolvsidig tärning) – Används vanligtvis för tung vapenskada, som en barbars stridsyxa.",
         "d20_description": "T20 (tjugosidig tärning) – Den viktigaste tärningen, används för attackslag, färdighetsslag, räddningsslag och för att avgöra framgång eller misslyckande.",
-        "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte."
+        "d100_description": "T100 (procenttärning) – Används för att slå procent, ofta tillsammans med en T10 för att avgöra slumpmässiga effekter eller byte.",
+        "no_more_names_to_select": "Inga fler namn att välja.",
+        "close_button_text": "Stäng" # Re-added for consistency
     },
     "zh-CN": { # Simplified Chinese translations
         "select_language_prompt": "选择语言 (例如: en, es): ",
@@ -953,7 +997,9 @@ translations = {
         "d10_description": "D10 (十面骰) – 用于较大的伤害掷骰，例如某些军用武器和法术效果。",
         "d12_description": "D12 (十二面骰) – 通常用于重型武器伤害，例如野蛮人的巨斧。",
         "d20_description": "D20 (二十面骰) – 最重要的骰子，用于攻击掷骰、技能检定、豁免检定以及确定成功或失败。",
-        "d100_description": "D100 (百分骰) – 用于掷百分比，通常与D10结合使用以确定随机效果或战利品。"
+        "d100_description": "D100 (百分骰) – 用于掷百分比，通常与D10结合使用以确定随机效果或战利品。",
+        "no_more_names_to_select": "没有更多名称可供选择。",
+        "close_button_text": "关闭"
     },
     "zh-TW": { # Traditional Chinese translations
         "select_language_prompt": "選擇語言 (例如: en, es): ",
@@ -995,12 +1041,16 @@ translations = {
         "d10_description": "D10 (十面骰) – 用於較大的傷害擲骰，例如某些軍用武器和法術效果。",
         "d12_description": "D12 (十二面骰) – 通常用於重型武器傷害，例如野蠻人的巨斧。",
         "d20_description": "D20 (二十面骰) – 最重要的骰子，用於攻擊擲骰、技能檢定、豁免檢定以及確定成功或失敗。",
-        "d100_description": "D100 (百分骰) – 用於擲百分比，通常與D10結合使用以確定隨機效果或戰利品。"
+        "d100_description": "D100 (百分骰) – 用於擲百分比，通常與D10結合使用以確定隨機效果或戰利品。",
+        "no_more_names_to_select": "沒有更多名稱可供選擇。",
+        "close_button_text": "關閉"
     }
 }
-boardgames=["Settlers of Catan","Ticket to Ride",
-
-"Pandemic","Monopoly","Risk","Scrabble","Clue","Battleship","Blokus","Candy Land","The Game of Life","Dominion"
+boardgames=["Monopoly", "Risk", "Settlers of Catan", "Axis & Allies", "Backgammon", "Clue", "The Game of Life", "Ludo",
+            "Can't Stop", "Chicago Express", "Formula D", "Las Vegas", "Shut the Box", "Trouble", "Yahtzee", "King of Tokyo",
+            "Dice Forge", "Roll for the Galaxy", "Stone Age", "Machi Koro", "Liar’s Dice", "Zombie Dice", "Qwixx", 
+            "Betrayal at House on the Hill", "Descent: Legends of the Dark", "Nemesis", "Brikks", "King of the Dice", "Ruin It",
+            "Wits & Wagers Deluxe", "Mahadev Jumbo Sequence", "Santa’s Rooftop Scramble", "One Night Ultimate Alien"
 
 ]
 current_language = "en" 
@@ -1036,18 +1086,56 @@ FONT_DISPLAY = ("Helvetica", 14, "italic")
 
 # ---------- Dice Roller Functions ----------
 def roll_dice():
-    """Simulates rolling two dice and updates the UI with the result."""
-    d1 = random.randint(1, 6)
-    d2 = random.randint(1, 6)
-    result = d1 + d2
+    """Simulates rolling two dice and updates the UI with the result and an animation."""
     selected_game = game_var.get()
-    dice_result_var.set(get_message("dice_roll_result", result=result, d1=d1, d2=d2, game=selected_game))
+
+    # Animation part
+    animation_duration = 0.5  # seconds
+    frames_per_second = 20
+    num_frames = int(animation_duration * frames_per_second)
+    delay_between_frames = int(1000 / frames_per_second)  # milliseconds
+
+    def update_animation(frame_count):
+        if frame_count > 0:
+            # Display random numbers for animation
+            anim_d1 = random.randint(1, 6)
+            anim_d2 = random.randint(1, 6)
+            anim_result = anim_d1 + anim_d2
+            dice_result_var.set(get_message("dice_roll_result", result=anim_result, d1=anim_d1, d2=anim_d2, game=selected_game))
+            root.after(delay_between_frames, lambda: update_animation(frame_count - 1))
+        else:
+            # Final roll
+            d1 = random.randint(1, 6)
+            d2 = random.randint(1, 6)
+            result = d1 + d2
+            dice_result_var.set(get_message("dice_roll_result", result=result, d1=d1, d2=d2, game=selected_game))
+
+    update_animation(num_frames)
 
 # ---------- D&D Dice Functions ----------
 def roll_dnd_die(die_type):
-    """Rolls a D&D die and updates the D&D result label."""
-    roll_result = random.randint(1, int(die_type[1:])) # e.g., D20 -> 20
-    dnd_result_var.set(get_message("dnd_roll_result", die=die_type, result=roll_result))
+    """Rolls a D&D die and updates the D&D result label with an animation."""
+    num_sides = int(die_type[1:]) # e.g., D20 -> 20
+    
+    # Animation part
+    animation_duration = 0.5 # seconds
+    frames_per_second = 20
+    num_frames = int(animation_duration * frames_per_second)
+    delay_between_frames = int(1000 / frames_per_second) # milliseconds
+
+    def update_animation(frame_count):
+        if frame_count > 0:
+            # Display a random number for animation
+            animated_roll = random.randint(1, num_sides)
+            dnd_result_var.set(get_message("dnd_roll_result", die=die_type, result=animated_roll))
+            root.after(delay_between_frames, lambda: update_animation(frame_count - 1))
+        else:
+            # Final roll
+            roll_result = random.randint(1, num_sides)
+            dnd_result_var.set(get_message("dnd_roll_result", die=die_type, result=roll_result))
+
+    update_animation(num_frames)
+
 
 def show_dnd_help():
     """Displays a pop-up window with D&D dice information."""
@@ -1076,7 +1164,7 @@ def show_dnd_help():
     help_text_widget.tag_configure("bold_underline", font=(FONT_INPUT[0], FONT_INPUT[1], "bold underline"))
     help_text_widget.config(state=tk.DISABLED) # Make text read-only
 
-    close_button = ttk.Button(help_window, text="Close", command=help_window.destroy)
+    close_button = ttk.Button(help_window, text=get_message("close_button_text"), command=help_window.destroy)
     close_button.pack(pady=10)
 
 # ---------- GUI Functions -----------
@@ -1123,7 +1211,7 @@ def select_name_ui():
     else:
         if winners: # Game is already over, show final list again or a specific message
             winners_text = ", ".join(f"{i+1}. {w}" for i, w in enumerate(winners))
-            display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\nNo more names to select.")
+            display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\\n" + get_message("no_more_names_to_select"))
         else: # No names were ever added
             display_var.set(get_message("no_names_to_select"))
 
@@ -1190,7 +1278,7 @@ def update_ui_language(lang_code=None):
         display_var.set(get_message("status_initial"))
     elif not names and winners: # Game is over
         winners_text = ", ".join(f"{i+1}. {w}" for i, w in enumerate(winners))
-        display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\n" + get_message("no_names_to_select"))
+        display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\\n" + get_message("no_more_names_to_select"))
     # else: keep current message if a name was just added or selected.
 
 def on_language_select(event):
@@ -1202,7 +1290,7 @@ def on_language_select(event):
     # Or if no names, display initial status
     if not names and winners: 
         winners_text = ", ".join(f"{i+1}. {w}" for i, w in enumerate(winners))
-        display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\n" + get_message("no_names_to_select"))
+        display_var.set(get_message("game_over_all_selected", winners_list=winners_text) + "\\n" + get_message("no_more_names_to_select"))
     elif not names and not winners:
         display_var.set(get_message("status_initial"))
 
