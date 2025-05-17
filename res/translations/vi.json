@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Chọn ngôn ngữ (ví dụ: en, vi): ",
+{ "select_language_prompt": "Chọn ngôn ngữ (ví dụ: en, vi): ",
     "language_not_supported": "Ngôn ngữ '{lang}' không được hỗ trợ. Sử dụng tiếng Anh.",
     "enter_name_prompt": "Nhập tên của bạn (hoặc gõ '{quit_cmd}' để thoát, '{next_cmd}' để chọn tên): ",
     "exiting_program": "Đang thoát chương trình.",

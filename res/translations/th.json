@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "เลือกภาษา (เช่น en, th): ",
+{ "select_language_prompt": "เลือกภาษา (เช่น en, th): ",
     "language_not_supported": "ไม่รองรับภาษา '{lang}' กำลังใช้ภาษาอังกฤษ",
     "enter_name_prompt": "ป้อนชื่อของคุณ (หรือพิมพ์ '{quit_cmd}' เพื่อออก, '{next_cmd}' เพื่อเลือกชื่อ): ",
     "exiting_program": "กำลังออกจากโปรแกรม",

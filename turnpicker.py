@@ -1,10 +1,12 @@
 import random
 import tkinter as tk
 from tkinter import ttk
+
+from util import translation_manager
 names = []
 winners = []
 
-translations = {}
+translations = translation_manager.get_languages("translations")
 
 boardgames=["Monopoly", "Risk", "Settlers of Catan", "Axis & Allies", "Backgammon", "Clue", "The Game of Life", "Ludo",
             "Can't Stop", "Chicago Express", "Formula D", "Las Vegas", "Shut the Box", "Trouble", "Yahtzee", "King of Tokyo",
@@ -15,8 +17,7 @@ boardgames=["Monopoly", "Risk", "Settlers of Catan", "Axis & Allies", "Backgammo
 ]
 card_games_list = ["Poker", "Blackjack", "Rummy", "Bridge", "Euchre", "Hearts", "Spades", "Go Fish", "Uno", "Crazy Eights", "Pinochle", "Canasta", "Gin Rummy", "Old Maid", "War", "Solitaire", "Snap", "Cribbage", "Whist", "Durak", "President", "Exploding Kittens", "Mao", "Skat", "Baccarat", "Bezique", "Briscola", "Piquet", "Napoleon", "Patience", "Sheepshead", "Ombre", "Scopa", "Tressette", "Cuarenta", "Hanafuda", "Tarot", "Wizard", "Dutch Blitz", "Phase 10"]
 
-card_game_rules_translations = {
-}
+card_game_rules_translations = translation_manager.get_languages("card_game_rules_translations")
 
 current_language = "en" 
 

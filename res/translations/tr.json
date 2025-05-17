@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Dil seçin (örn. en, tr): ",
+{ "select_language_prompt": "Dil seçin (örn. en, tr): ",
     "language_not_supported": "Dil '{lang}' desteklenmiyor. İngilizce kullanılıyor.",
     "enter_name_prompt": "Adınızı girin (veya çıkmak için '{quit_cmd}', ad seçmek için '{next_cmd}' yazın): ",
     "exiting_program": "Programdan çıkılıyor.",

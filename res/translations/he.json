@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "בחר שפה (לדוגמה: en, he): ",
+{ "select_language_prompt": "בחר שפה (לדוגמה: en, he): ",
     "language_not_supported": "השפה '{lang}' אינה נתמכת. נעשה שימוש באנגלית.",
     "enter_name_prompt": "הזן את שמך (או הקלד '{quit_cmd}' ליציאה, '{next_cmd}' לבחירת שם): ",
     "exiting_program": "יוצא מהתוכנית.",

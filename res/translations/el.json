@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Επιλέξτε γλώσσα (π.χ. en, el): ",
+{ "select_language_prompt": "Επιλέξτε γλώσσα (π.χ. en, el): ",
     "language_not_supported": "Η γλώσσα '{lang}' δεν υποστηρίζεται. Χρήση Αγγικών.",
     "enter_name_prompt": "Εισαγάγετε το όνομά σας (ή πληκτρολογήστε '{quit_cmd}' για έξοδο, '{next_cmd}' για επιλογή ονόματος): ",
     "exiting_program": "Έξοδος από το πρόγραμμα.",

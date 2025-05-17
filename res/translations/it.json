@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Seleziona la lingua (es. en, it): ",
+{ "select_language_prompt": "Seleziona la lingua (es. en, it): ",
     "language_not_supported": "Lingua '{lang}' non supportata. Si utilizza l'inglese.",
     "enter_name_prompt": "Inserisci il tuo nome (o digita '{quit_cmd}' per uscire, '{next_cmd}' per selezionare un nome): ",
     "exiting_program": "Uscita dal programma.",

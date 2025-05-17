@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Chagua lugha (k.m. en, sw): ",
+{ "select_language_prompt": "Chagua lugha (k.m. en, sw): ",
     "language_not_supported": "Lugha '{lang}' haitumiki. Inatumia Kiingereza.",
     "enter_name_prompt": "Ingiza jina lako (au andika '{quit_cmd}' kutoka, '{next_cmd}' kuchagua jina): ",
     "exiting_program": "Inatoka kwenye programu.",

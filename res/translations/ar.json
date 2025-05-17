@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "اختر اللغة (مثال: en, ar): ",
+{ "select_language_prompt": "اختر اللغة (مثال: en, ar): ",
     "language_not_supported": "اللغة '{lang}' غير مدعومة. يتم استخدام الإنجليزية.",
     "enter_name_prompt": "أدخل اسمك (أو اكتب '{quit_cmd}' للخروج، '{next_cmd}' لاختيار اسم): ",
     "exiting_program": "الخروج من البرنامج.",

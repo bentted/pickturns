@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Välj språk (t.ex. en, sv): ",
+{ "select_language_prompt": "Välj språk (t.ex. en, sv): ",
     "language_not_supported": "Språk '{lang}' stöds inte. Använder engelska.",
     "enter_name_prompt": "Ange ditt namn (eller skriv '{quit_cmd}' för att avsluta, '{next_cmd}' för att välja ett namn): ",
     "exiting_program": "Avslutar programmet.",

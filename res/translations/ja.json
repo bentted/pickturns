@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "言語を選択してください (例: en, ja): ",
+{ "select_language_prompt": "言語を選択してください (例: en, ja): ",
     "language_not_supported": "言語 '{lang}' はサポートされていません。英語を使用します。",
     "enter_name_prompt": "名前を入力してください (終了するには '{quit_cmd}'、名前を選択するには '{next_cmd}' と入力): ",
     "exiting_program": "プログラムを終了しています。",

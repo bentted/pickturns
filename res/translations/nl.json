@@ -1,5 +1,4 @@
-{
-    "select_language_prompt": "Selecteer taal (bijv. en, nl): ",
+{ "select_language_prompt": "Selecteer taal (bijv. en, nl): ",
     "language_not_supported": "Taal '{lang}' niet ondersteund. Engels wordt gebruikt.",
     "enter_name_prompt": "Voer uw naam in (of typ '{quit_cmd}' om af te sluiten, '{next_cmd}' om een naam te selecteren): ",
     "exiting_program": "Programma afsluiten.",

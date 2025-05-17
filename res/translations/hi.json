@@ -1,5 +1,4 @@
-{ 
-    "select_language_prompt": "भाषा चुनें (उदा. en, hi): ",
+{ "select_language_prompt": "भाषा चुनें (उदा. en, hi): ",
     "language_not_supported": "भाषा '{lang}' समर्थित नहीं है। अंग्रेजी का उपयोग किया जा रहा है।",
     "enter_name_prompt": "अपना नाम दर्ज करें (या बाहर निकलने के लिए '{quit_cmd}' टाइप करें, नाम चुनने के लिए '{next_cmd}' टाइप करें): ",
     "exiting_program": "कार्यक्रम से बाहर निकल रहा है।",
