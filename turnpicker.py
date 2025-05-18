@@ -518,74 +518,12 @@ update_ui_language(current_language)
 if card_games_list: # If there are card games, show rules for the first one by default
     show_card_game_rules()
 
-# ---------- Run the App (moved to if __name__ == "__main__") ----------
-
-# --- CLI Functions (renamed) ---
-def get_message_cli(key, **kwargs): # Renamed to avoid conflict if we want separate CLI/GUI get_message
-    global current_language
-    
-    message_template = translations.get(current_language, translations["en"]).get(key, translations["en"].get(key))
-    if message_template is None:
-        return key 
-    return message_template.format(**kwargs)
-
-def set_language_cli():
-    """Allows the user to select a language for CLI."""
-    global current_language
-   
-    lang_code = input(translations["en"]["select_language_prompt"]).strip().lower()
-    if lang_code in translations:
-        current_language = lang_code
-    else:
-        print(translations["en"]["language_not_supported"].format(lang=lang_code))
-        current_language = "en" 
-
-def main_cli(names_list):
-    while True:
-        name_input = input(get_message_cli("enter_name_prompt", quit_cmd=get_message_cli("quit_command"), next_cmd=get_message_cli("next_command")))
-        if name_input.lower() == get_message_cli("quit_command"):
-            print(get_message_cli("exiting_program"))
-            break
-        elif name_input.lower() == get_message_cli("next_command"):
-            if not names_list:
-                print(get_message_cli("no_names_to_select"))
-            else:
-                selected_winner_name = make_selection(names_list)
-                if selected_winner_name:
-                    winner(selected_winner_name)
-        else:
-            names_list.append(name_input)
-            print(get_message_cli("name_added_to_list", name=name_input))
-
-def make_selection(current_names):
-    if not current_names:
-        print(get_message_cli("no_names_to_select"))
-        return None
-    
-    selected_name = random.choice(current_names)
-    print(get_message_cli("congratulations_winner", name=selected_name))
-    current_names.remove(selected_name)
-    return selected_name
-
-def winner(name_of_the_winner):
-    if name_of_the_winner is None:
-        print(get_message_cli("error_no_winner_provided"))
-        return
-
-    winners.append(name_of_the_winner)
-    print(get_message_cli("added_to_winners_list", name=name_of_the_winner))
-
-    if not names: # Check the global names list
-        print(get_message_cli("game_over_all_selected", winners_list=winners))
-    else:
-        print(get_message_cli("names_remaining", count=len(names)))
-
-# --- End of CLI Functions ---
 
 if __name__ == "__main__":
     # To run CLI version:
-    # set_language_cli() 
-    # main_cli(names)
+    from views import cli
+    cli.set_language_cli(current_language, translations) 
+    cli.main_cli(current_language, translations, winners, names)
     
     # To run GUI version:
-    root.mainloop()
+    #root.mainloop()
