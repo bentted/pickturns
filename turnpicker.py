@@ -520,10 +520,18 @@ if card_games_list: # If there are card games, show rules for the first one by d
 
 
 if __name__ == "__main__":
-    # To run CLI version:
-    from views import cli
-    cli.set_language_cli(current_language, translations) 
-    cli.main_cli(current_language, translations, winners, names)
+    from sys import argv
+
+    from views.cli import CLI
     
-    # To run GUI version:
-    #root.mainloop()
+    # FIXME: I noticed that when your program starts regardless of mode selected the GUI will start.
+    if len(argv) < 2:
+        root.mainloop()
+    elif argv[1].lower() == "cli":
+        cli = CLI(current_language, translations, winners, names)
+        cli.set_language_cli() 
+        cli.main_cli()
+    elif argv[1].lower() == "gui":
+        root.mainloop()
+    else:
+        print("Unknown command! Pick the mode CLI or GUI.")
